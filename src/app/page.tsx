@@ -291,11 +291,11 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-evenly gap-6 md:gap-12">
               <div className="flex flex-col space-y-2 md:space-y-4">
                 {[
-                  { title: "IT Code Fair '25", src: "/assets/all_medals.JPEG" },
-                  { title: "Digital Excellence", src: "/assets/NT_digital_excellence_award.jpg" },
-                  { title: "Business Innovation", src: "/assets/business innovation 1.png" },
+                  { title: "IT Code Fair '25", src: "/assets/all-medals.jpg" },
+                  { title: "Digital Excellence", src: "/assets/nt-digital-excellence.jpg" },
+                  { title: "Business Innovation", src: "/assets/business-innovation-1.png" },
                   { title: "Rimpa Global", src: "/assets/rimpa1.png" },
-                  { title: "Coding Champion", src: "/assets/coding_winner.JPEG" },
+                  { title: "Coding Champion", src: "/assets/coding-winner.jpg" },
                 ].map((slide, index) => (
                   <TextStaggerHover
                     key={slide.title}
@@ -307,11 +307,11 @@ export default function Home() {
               </div>
               <HoverSliderImageWrap className="h-96 w-full max-w-md rounded-2xl overflow-hidden shadow-2xl">
                 {[
-                  { title: "IT Code Fair '25", src: "/assets/all_medals.JPEG" },
-                  { title: "Digital Excellence", src: "/assets/NT_digital_excellence_award.jpg" },
-                  { title: "Business Innovation", src: "/assets/business innovation 1.png" },
+                  { title: "IT Code Fair '25", src: "/assets/all-medals.jpg" },
+                  { title: "Digital Excellence", src: "/assets/nt-digital-excellence.jpg" },
+                  { title: "Business Innovation", src: "/assets/business-innovation-1.png" },
                   { title: "Rimpa Global", src: "/assets/rimpa1.png" },
-                  { title: "Coding Champion", src: "/assets/coding_winner.JPEG" },
+                  { title: "Coding Champion", src: "/assets/coding-winner.jpg" },
                 ].map((slide, index) => (
                   <HoverSliderImage
                     key={slide.title}

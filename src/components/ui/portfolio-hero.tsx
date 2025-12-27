@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
+import { resolveAsset } from "@/lib/utils";
 
 // Inline Button component
 const Button = React.forwardRef<
@@ -212,15 +213,15 @@ export default function Component() {
               color: isDark ? "hsl(0 0% 100%)" : "hsl(0 0% 10%)",
               fontFamily: "'Brush Script MT', 'Lucida Handwriting', cursive",
             }}
-            >
-              <Image
-                src="/assets/signature.png"
-                alt="Signature"
-                width={20}
-                height={20}
-                className="object-contain"
-              />
-            </div>
+          >
+            <Image
+              src={resolveAsset("/assets/signature.png")}
+              alt="Signature"
+              width={20}
+              height={20}
+              className="object-contain"
+            />
+          </div>
 
           {/* Theme Toggle */}
           <button
@@ -277,7 +278,7 @@ export default function Component() {
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
               <div className="relative h-[110px] w-[65px] overflow-hidden rounded-full shadow-2xl transition-transform duration-300 hover:scale-110 cursor-pointer sm:h-[152px] sm:w-[90px] md:h-[185px] md:w-[110px] lg:h-[218px] lg:w-[129px]">
                 <Image
-                  src="/assets/profile-pic.png"
+                  src={resolveAsset("/assets/profile-pic.png")}
                   alt="Profile"
                   fill
                   sizes="(max-width: 768px) 120px, 160px"
@@ -291,14 +292,14 @@ export default function Component() {
         {/* Tagline - Proper Distance Below Hero */}
         <div className="absolute left-1/2 bottom-16 w-full -translate-x-1/2 px-6 sm:bottom-20 md:bottom-24 lg:bottom-32 xl:bottom-36">
           <div className="flex justify-center">
-              <BlurText
-                text="Designing human experiences in code."
-                delay={150}
-                animateBy="words"
-                direction="top"
-                className="text-center text-[15px] text-neutral-500 transition-colors duration-300 hover:text-black dark:hover:text-white sm:text-[18px] md:text-[20px] lg:text-[22px]"
-                style={{ fontFamily: "var(--font-antic, 'Antic', sans-serif)" }}
-              />
+            <BlurText
+              text="Designing human experiences in code."
+              delay={150}
+              animateBy="words"
+              direction="top"
+              className="text-center text-[15px] text-neutral-500 transition-colors duration-300 hover:text-black dark:hover:text-white sm:text-[18px] md:text-[20px] lg:text-[22px]"
+              style={{ fontFamily: "var(--font-antic, 'Antic', sans-serif)" }}
+            />
           </div>
         </div>
 
