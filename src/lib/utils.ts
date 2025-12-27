@@ -11,8 +11,13 @@ export function resolveAsset(path: string) {
   if (path.startsWith("http") || path.startsWith("data:")) return path;
 
   // Ensure we don't have double slashes if basePath ends with /
-  const cleanBasePath = basePath.endsWith("/") ? basePath.slice(0, -1) : basePath;
+  const cleanBasePath = basePath.replace(/\/+$/, "");
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
+
+  // DEFENSIVE: If it already carries the basePath, don't prefix again
+  if (cleanBasePath && cleanPath.startsWith(cleanBasePath)) {
+    return cleanPath;
+  }
 
   // Encode spaces and other characters for safety, but keep slashes
   const encodedPath = cleanPath.split('/').map(segment => encodeURIComponent(segment)).join('/');
