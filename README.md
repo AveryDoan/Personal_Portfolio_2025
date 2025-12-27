@@ -1,4 +1,5 @@
-## Avery Doan — Portfolio
+# Avery Doan — Portfolio
+## Check it out: https://averydoan.github.io/Personal_Portfolio_2025/
 
 Next.js 15 + App Router build wired with Tailwind CSS v4, TypeScript, and the shadcn/ui project structure. The landing page pulls directly from Avery’s resume plus live GitHub repositories to highlight research, civic-tech, and analytics projects.
 
