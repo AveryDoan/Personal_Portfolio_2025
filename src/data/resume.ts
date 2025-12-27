@@ -5,7 +5,7 @@ export const contact = {
   email: "harrymystogan@gmail.com",
   phone: "+61 431 574 462",
   github: "https://github.com/AveryDoan",
-  linkedin: "https://www.linkedin.com/in/averydoan",
+  linkedin: "https://www.linkedin.com/in/avery-doan/",
   summary:
     "A data scientist, a learner that never stops exploring.",
 };
