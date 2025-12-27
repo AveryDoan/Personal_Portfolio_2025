@@ -6,6 +6,7 @@ const repoName = "Personal_Portfolio_2025";
 const nextConfig: NextConfig = {
   output: "export",
   basePath: isGithubActions ? `/${repoName}` : undefined,
+  trailingSlash: true,
   env: {
     NEXT_PUBLIC_BASE_PATH: isGithubActions ? `/${repoName}` : "",
   },

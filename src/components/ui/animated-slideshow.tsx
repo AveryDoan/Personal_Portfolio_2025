@@ -162,9 +162,9 @@ export const HoverSliderImage = React.forwardRef<
             transition={{ ease: [0.33, 1, 0.68, 1], duration: 0.8 }}
             variants={clipPathVariants}
             animate={activeSlide === index ? "visible" : "hidden"}
-            src={resolveAsset(imageUrl)}
             ref={ref}
             {...props}
+            src={resolveAsset(imageUrl)}
         />
     )
 })
