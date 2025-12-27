@@ -281,14 +281,14 @@ export const spotlightTimeline: SpotlightEntry[] = [
       alt: "Business innovation demo",
       layers: [
         {
-          src: "/Personal_Portfolio_2025/assets/business%20innovation%201.png",
+          src: "/assets/business%20innovation%201.png",
           alt: "Presenting the NT Shift Surge concept",
           // Background layer: Top Left
           className: "w-[50%] left-[5%] top-[35%] shadow-lg",
           preset: "slideInLeft",
         },
         {
-          src: "/Personal_Portfolio_2025/assets/business%20innovation%202.jpeg",
+          src: "/assets/business%20innovation%202.jpeg",
           alt: "Team recapping insights",
           // Foreground layer: Bottom Right overlap
           className: "w-[45%] left-[45%] top-[40%] shadow-xl",
@@ -308,14 +308,14 @@ export const spotlightTimeline: SpotlightEntry[] = [
       alt: "Research competition showcase",
       layers: [
         {
-          src: "/Personal_Portfolio_2025/assets/research.png",
+          src: "/assets/research.png",
           alt: "Experiment planning on a whiteboard",
           // Background layer: Top Left
           className: "w-[50%] left-[5%] top-[10%] shadow-lg",
           preset: "slideInLeft",
         },
         {
-          src: "/Personal_Portfolio_2025/assets/research2.jpeg",
+          src: "/assets/research2.jpeg",
           alt: "Demonstrating biometrics workflow",
           // Foreground layer: Bottom Right overlap
           className: "w-[55%] left-[40%] top-[30%] shadow-xl",
@@ -335,7 +335,7 @@ export const spotlightTimeline: SpotlightEntry[] = [
       alt: "Coding competition run-through",
       layers: [
         {
-          src: "/Personal_Portfolio_2025/assets/research3.jpeg",
+          src: "/assets/research3.jpeg",
           alt: "Showcasing inference dashboard",
           // Hero shot: Centered and Large
           className: "w-[85%] left-[7.5%] top-[15%] shadow-2xl",
@@ -354,7 +354,7 @@ export const spotlightTimeline: SpotlightEntry[] = [
       alt: "Digital Excellence award night",
       layers: [
         {
-          src: "/Personal_Portfolio_2025/assets/digital%20excellence%202025.jpg",
+          src: "/assets/digital%20excellence%202025.jpg",
           alt: "Receiving NT Digital Excellence trophy",
           // Hero shot: Centered and Large
           className: "w-[80%] left-[10%] top-[10%] shadow-2xl",
@@ -373,14 +373,14 @@ export const spotlightTimeline: SpotlightEntry[] = [
       alt: "RIMPA prototype",
       layers: [
         {
-          src: "/Personal_Portfolio_2025/assets/rimpa1.png",
+          src: "/assets/rimpa1.png",
           alt: "Ideation board at hackathon",
           // Background layer: Top Left
           className: "w-[50%] left-[5%] top-[12%] shadow-lg",
           preset: "slideInLeft",
         },
         {
-          src: "/Personal_Portfolio_2025/assets/rimpa2.png",
+          src: "/assets/rimpa2.png",
           alt: "Dashboard mockups",
           // Foreground layer: Bottom Right overlap
           className: "w-[60%] left-[35%] top-[35%] shadow-xl",
@@ -400,14 +400,14 @@ export const spotlightTimeline: SpotlightEntry[] = [
       alt: "GovHack 2024 presentation",
       layers: [
         {
-          src: "/Personal_Portfolio_2025/assets/govhack-award.jpg",
+          src: "/assets/govhack-award.jpg",
           alt: "GovHack ceremony",
           // Background layer: Top Left
           className: "w-[55%] left-[5%] top-[10%] shadow-lg",
           preset: "slideInLeft",
         },
         {
-          src: "/Personal_Portfolio_2025/assets/github-community.jpg",
+          src: "/assets/github-community.jpg",
           alt: "Team sprinting over dashboards",
           // Foreground layer: Bottom Right overlap
           className: "w-[50%] left-[45%] top-[40%] shadow-xl",

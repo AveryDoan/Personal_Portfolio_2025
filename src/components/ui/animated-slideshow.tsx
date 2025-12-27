@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { HTMLMotionProps, MotionConfig, motion } from "framer-motion"
-import { cn } from "@/lib/utils"
+import { cn, resolveAsset } from "@/lib/utils"
 
 interface TextStaggerHoverProps {
     text: string
@@ -162,6 +162,7 @@ export const HoverSliderImage = React.forwardRef<
             transition={{ ease: [0.33, 1, 0.68, 1], duration: 0.8 }}
             variants={clipPathVariants}
             animate={activeSlide === index ? "visible" : "hidden"}
+            src={resolveAsset(imageUrl)}
             ref={ref}
             {...props}
         />
