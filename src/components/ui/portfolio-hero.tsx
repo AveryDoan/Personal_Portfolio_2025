@@ -215,7 +215,7 @@ export default function Component() {
             }}
           >
             <Image
-              src={resolveAsset("/assets/signature.png")}
+              src={resolveAsset("/public/assets/signature.png")}
               alt="Signature"
               width={20}
               height={20}
@@ -278,7 +278,7 @@ export default function Component() {
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
               <div className="relative h-[110px] w-[65px] overflow-hidden rounded-full shadow-2xl transition-transform duration-300 hover:scale-110 cursor-pointer sm:h-[152px] sm:w-[90px] md:h-[185px] md:w-[110px] lg:h-[218px] lg:w-[129px]">
                 <Image
-                  src={resolveAsset("/assets/profile-pic.png")}
+                  src={resolveAsset("/public/assets/profile-pic.png")}
                   alt="Profile"
                   fill
                   sizes="(max-width: 768px) 120px, 160px"
