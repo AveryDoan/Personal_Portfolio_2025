@@ -1,427 +1,408 @@
-import { GlowingEffectDemo } from "@/components/ui/glowing-effect-demo";
-import PortfolioHero from "@/components/ui/portfolio-hero";
+import { existsSync } from "node:fs";
+import path from "node:path";
+import Image from "next/image";
+import Link from "next/link";
+import { MailPrompt } from "@/components/mail-prompt";
+import { Stage, type StageImage } from "@/components/stage";
 import {
-  achievements,
+  RESUME_FILE,
+  awards,
   certifications,
   contact,
   education,
   experience,
-  flagshipProjects,
-  githubProjects,
+  projects,
   skillGroups,
+  type AwardImage,
 } from "@/data/resume";
-import {
-  ArrowUpRight,
-  CheckCircle2,
-  ExternalLink,
-  Github,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-} from "lucide-react";
-import Link from "next/link";
-import {
-  HoverSlider,
-  HoverSliderImage,
-  HoverSliderImageWrap,
-  TextStaggerHover,
-} from "@/components/ui/animated-slideshow";
-import { GithubStream } from "@/components/ui/github-stream";
 
-const badges = [
-  "Python & R",
-  "Marketing Analytics",
-  "Product Thinking",
-  "Neuroscience Lab Ops",
-  "GovHack 2024 Honourable Mention",
+const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
+const awardKey = (title: string, category?: string) =>
+  `award-${slug(title)}${category ? `-${slug(category)}` : ""}`;
+
+const fromAward = (key: string, image: AwardImage): StageImage => ({
+  key,
+  src: image.src,
+  alt: image.alt,
+  caption: image.caption,
+  width: image.width,
+  height: image.height,
+  fit: image.width / image.height > 1.2 ? "contain" : "cover",
+});
+
+const stageImages: StageImage[] = [
+  {
+    key: "portrait",
+    src: "/images/stage-portrait.webp",
+    alt: "Avery smiling with arms open beside a table of framed award certificates and glass trophies",
+    caption: "With the IT Code Fair 2025 awards",
+    width: 1200,
+    height: 1600,
+    fit: "cover",
+  },
+  {
+    key: "dashboard",
+    src: "/images/rimpa-dashboard-1.webp",
+    alt: "Dashboard showing a business’s digital carbon footprint, cost savings and priority actions",
+    caption: "An emissions and records dashboard, built at the RIMPA Global Hackathon 2025",
+    width: 1599,
+    height: 824,
+    fit: "contain",
+  },
+  ...awards.flatMap((award) => [
+    ...(award.image ? [fromAward(awardKey(award.title), award.image)] : []),
+    ...(award.categories ?? []).map((category) =>
+      fromAward(awardKey(award.title, category.name), category.image),
+    ),
+  ]),
 ];
 
-function SectionTitle({
-  eyebrow,
-  title,
-  description,
-}: {
-  eyebrow: string;
-  title: string;
-  description?: string;
-}) {
+const navLinks = [
+  { label: "Experience", href: "#experience" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Awards", href: "#awards" },
+  { label: "Education", href: "#education" },
+  { label: "Contact", href: "#contact" },
+];
+
+const bulletList = "mt-3 list-disc space-y-3 pl-5 marker:text-ink";
+
+function Heading({ id, children }: { id: string; children: React.ReactNode }) {
   return (
-    <header className="space-y-3">
-      <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground">
-        {eyebrow}
-      </p>
-      <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-        {title}
-      </h2>
-      {description ? (
-        <p className="text-base text-muted-foreground">{description}</p>
-      ) : null}
-    </header>
+    <h2 id={id} className="text-h2 text-ink">
+      {children}
+    </h2>
   );
 }
 
 export default function Home() {
+  const resumeHref = existsSync(path.join(process.cwd(), "public", RESUME_FILE)) ? `/${RESUME_FILE}` : null;
+
   return (
-    <div className="bg-background text-foreground">
-      <section id="top" className="min-h-screen">
-        <PortfolioHero />
-      </section>
+    <>
+      <a
+        href="#main"
+        className="absolute left-4 top-4 z-50 -translate-y-24 bg-ink px-4 py-2 text-paper focus:translate-y-0"
+      >
+        Skip to content
+      </a>
 
-      <div className="mx-auto flex max-w-6xl flex-col gap-20 px-6 py-16 sm:px-8 lg:px-12">
-        {/* About + contact */}
-        <section id="about" className="grid gap-8 rounded-3xl border border-border bg-card/60 p-8 backdrop-blur">
-          <SectionTitle
-            eyebrow="About"
-            title={contact.name}
-            description={contact.summary}
-          />
-          <div className="flex flex-wrap gap-2">
-            {badges.map((badge) => (
-              <span
-                key={badge}
-                className="rounded-full border border-border/60 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground"
-              >
-                {badge}
-              </span>
-            ))}
-          </div>
-          <div className="grid gap-6 text-sm sm:grid-cols-2 lg:grid-cols-4">
-            <div className="flex items-center gap-3 text-muted-foreground">
-              <MapPin className="h-4 w-4 text-primary" />
-              <span>{contact.location}</span>
-            </div>
-            <Link
-              href={`mailto:${contact.email}`}
-              className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <Mail className="h-4 w-4 text-primary" />
-              <span>{contact.email}</span>
-            </Link>
-            <Link
-              href={`tel:${contact.phone.replace(/\s+/g, "")}`}
-              className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <Phone className="h-4 w-4 text-primary" />
-              <span>{contact.phone}</span>
-            </Link>
-            <Link
-              href={contact.github}
-              target="_blank"
-              className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <Github className="h-4 w-4 text-primary" />
-              <span>GitHub</span>
-            </Link>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            <Link
-              href="mailto:harrymystogan@gmail.com"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
-            >
-              Contact Avery <ArrowUpRight className="h-4 w-4" />
-            </Link>
-            <Link
-              href={contact.linkedin}
-              target="_blank"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-2 text-sm font-semibold transition hover:border-primary hover:text-primary"
-            >
-              <Linkedin className="h-4 w-4" />
-              LinkedIn
-            </Link>
-          </div>
-        </section>
+      <main id="main">
+        <div id="top" className="lg:grid lg:grid-cols-2">
+          <Stage images={stageImages} />
 
-        {/* Experience */}
-        <section id="experience" className="space-y-10">
-          <SectionTitle
-            eyebrow="Experience"
-            title="Evidence-based storytelling across science, retail, and civic tech."
-          />
-          <div className="space-y-6">
-            {experience.map((item) => (
-              <article
-                key={`${item.company}-${item.role}`}
-                className="rounded-3xl border border-border/80 bg-card/40 p-6 shadow-sm"
-              >
-                <div className="flex flex-wrap items-center justify-between gap-3">
-                  <div>
-                    <p className="text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground">
-                      {item.timeline}
-                    </p>
-                    <h3 className="text-xl font-semibold">{item.role}</h3>
-                  </div>
-                  <p className="text-sm text-muted-foreground">
-                    {item.company} • {item.location}
-                  </p>
-                </div>
-                <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                  {item.bullets.map((bullet) => (
-                    <li key={bullet} className="flex gap-2">
-                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-primary" />
-                      <span>{bullet}</span>
+          <div className="px-6 sm:px-10 lg:pl-16 lg:pr-8">
+            {/* First screen */}
+            <div className="flex flex-col py-8 lg:min-h-svh lg:py-12">
+              <nav aria-label="Sections">
+                <ul className="flex flex-wrap gap-x-6 gap-y-1 text-small lg:justify-between">
+                  {navLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="inline-block py-2">
+                        {link.label}
+                      </Link>
                     </li>
                   ))}
                 </ul>
-              </article>
-            ))}
-          </div>
-        </section>
+              </nav>
 
-        {/* Education + skills */}
-        <section
-          id="education"
-          className="grid gap-10 rounded-3xl border border-border/80 bg-card/30 p-8 lg:grid-cols-[1.1fr_0.9fr]"
-        >
-          <div className="space-y-6">
-            <SectionTitle eyebrow="Education" title="Always mixing theory and practice." />
-            <div className="space-y-6">
-              {education.map((entry) => (
-                <div key={entry.school} className="rounded-2xl border border-border/60 p-5">
-                  <p className="text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground">
-                    {entry.timeline}
-                  </p>
-                  <h3 className="mt-2 text-xl font-semibold">{entry.school}</h3>
-                  <p className="text-sm text-muted-foreground">
-                    {entry.degree} • {entry.location}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="space-y-6">
-            <SectionTitle eyebrow="Skills" title="End-to-end product data stack." />
-            <div className="space-y-4">
-              {skillGroups.map((group) => (
-                <div key={group.title} className="rounded-2xl border border-border/60 p-5">
-                  <h4 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-                    {group.title}
-                  </h4>
-                  <ul className="mt-3 space-y-1 text-sm text-foreground/80">
-                    {group.items.map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Certifications */}
-        <section className="space-y-8 rounded-3xl border border-border/80 bg-card/40 p-10">
-          <SectionTitle
-            eyebrow="Certifications"
-            title="Continuous learning loops."
-            description="Formal credentials across analytics, automation, and platform operations to keep delivery sharp."
-          />
-          <div className="grid gap-4 sm:grid-cols-2">
-            {certifications.map((cert) => (
-              <div
-                key={cert}
-                className="rounded-2xl border border-border/60 bg-background/60 p-5 text-left shadow-sm"
-              >
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-1 h-5 w-5 text-primary" />
-                  <p className="text-base text-foreground/90">{cert}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Spotlight */}
-        <section
-          id="Little achievements"
-          className="space-y-8 rounded-3xl border border-border/80 bg-card/40 p-10"
-        >
-          <span id="writing" className="-mt-24 block h-0" aria-hidden="true" />
-          <SectionTitle
-            eyebrow="Little achievements"
-            title="Awards and builds in one motion."
-            description="Multiple wins from hackathons competitions."
-          />
-          <div className="grid gap-4 lg:grid-cols-2">
-            {achievements.map((award) => (
-              <article
-                key={award.title}
-                className="flex flex-col rounded-3xl border border-border bg-card/80 p-6 shadow-sm"
-              >
-                <header className="space-y-2">
-                  <h3 className="text-xl font-semibold">{award.title}</h3>
-                  <p className="text-sm text-muted-foreground">{award.summary}</p>
-                </header>
-                <div className="mt-4 flex flex-wrap gap-2 text-xs text-muted-foreground">
-                  {award.skills.map((skill) => (
-                    <span key={skill} className="rounded-full border border-border/60 px-3 py-1">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-                <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                  {award.features.map((feature) => (
-                    <li key={feature} className="flex gap-2">
-                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-primary" />
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-6">
-                  <Link
-                    href={award.link}
-                    target={award.link.startsWith("http") ? "_blank" : undefined}
-                    className="inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:opacity-80"
-                  >
-                    Try it out <ExternalLink className="h-4 w-4" />
+              <div className="intro my-16 space-y-7 lg:my-auto">
+                <h1 className="text-head text-ink">
+                  <span className="block">{contact.shortName},</span>
+                  <span className="block">{contact.headline}</span>
+                </h1>
+                <p className="max-w-[42ch] text-lead">{contact.summary}</p>
+                <p className="text-soft">
+                  Department of Children and Families, NT Government · {contact.location}
+                </p>
+                <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                  <Link href={`mailto:${contact.email}`} className="btn">
+                    Email me
+                  </Link>
+                  {resumeHref ? (
+                    <Link href={resumeHref} className="py-2">
+                      Resume (PDF)
+                    </Link>
+                  ) : null}
+                  <Link href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="py-2">
+                    LinkedIn
+                  </Link>
+                  <Link href={contact.github} target="_blank" rel="noopener noreferrer" className="py-2">
+                    GitHub
                   </Link>
                 </div>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        {/* Media */}
-        <section id="media" className="rounded-3xl border border-border/80 bg-card/40 p-10">
-          <SectionTitle
-            eyebrow="Media"
-            title="A visual timeline of builds."
-            description="Hover over the projects to see the snapshots."
-          />
-          <HoverSlider className="mt-10 min-h-[500px] place-content-center bg-transparent">
-            <div className="flex flex-wrap items-center justify-evenly gap-6 md:gap-12">
-              <div className="flex flex-col space-y-2 md:space-y-4">
-                {[
-                  { title: "IT Code Fair '25", src: "/assets/all-medals.jpg" },
-                  { title: "Digital Excellence", src: "/assets/nt-digital-excellence.jpg" },
-                  { title: "Business Innovation", src: "/assets/business-innovation-1.png" },
-                  { title: "Rimpa Global", src: "/assets/rimpa1.png" },
-                  { title: "Coding Champion", src: "/assets/coding-winner.jpg" },
-                ].map((slide, index) => (
-                  <TextStaggerHover
-                    key={slide.title}
-                    index={index}
-                    className="cursor-pointer text-4xl font-bold uppercase tracking-tighter"
-                    text={slide.title}
-                  />
-                ))}
               </div>
-              <HoverSliderImageWrap className="h-96 w-full max-w-md rounded-2xl overflow-hidden shadow-2xl">
-                {[
-                  { title: "IT Code Fair '25", src: "/assets/all-medals.jpg" },
-                  { title: "Digital Excellence", src: "/assets/nt-digital-excellence.jpg" },
-                  { title: "Business Innovation", src: "/assets/business-innovation-1.png" },
-                  { title: "Rimpa Global", src: "/assets/rimpa1.png" },
-                  { title: "Coding Champion", src: "/assets/coding-winner.jpg" },
-                ].map((slide, index) => (
-                  <HoverSliderImage
-                    key={slide.title}
-                    index={index}
-                    imageUrl={slide.src}
-                    src={slide.src}
-                    alt={slide.title}
-                    className="size-full object-cover"
-                    loading="eager"
-                  />
-                ))}
-              </HoverSliderImageWrap>
             </div>
-          </HoverSlider>
-        </section>
 
-
-        {/* Projects */}
-        <section id="projects" className="space-y-10">
-          <SectionTitle
-            eyebrow="Projects"
-            title="From ML prototypes to production-grade insights."
-            description="Mixing resume case studies with live GitHub work."
-          />
-          <div className="grid gap-6 lg:grid-cols-3">
-            {flagshipProjects.map((project) => (
-              <article
-                key={project.name}
-                className="flex flex-col rounded-3xl border border-border bg-card/60 p-6 shadow-sm"
-              >
-                <header className="space-y-2">
-                  <p className="text-xs font-mono uppercase tracking-[0.3em] text-muted-foreground">
-                    Flagship build
+            <div className="space-y-40 pb-40 pt-16 lg:space-y-48 lg:pb-32">
+              {/* Experience */}
+              <section aria-labelledby="experience-title" data-stage="portrait" className="space-y-12">
+                <div className="space-y-5" data-reveal>
+                  <Heading id="experience-title">Experience</Heading>
+                  <p className="max-w-[44ch] text-lead">
+                    I turn program data into dashboards, briefs and datasets that decision-makers can trust and act on.
                   </p>
-                  <h3 className="text-xl font-semibold">{project.name}</h3>
-                  <p className="text-sm text-muted-foreground">{project.description}</p>
-                </header>
-                <ul className="mt-4 flex flex-wrap gap-2 text-xs text-muted-foreground">
-                  {project.stack.map((tech) => (
-                    <li key={tech} className="rounded-full border border-border/70 px-3 py-1">
-                      {tech}
+                </div>
+                {experience.map((job) => (
+                  <article key={job.role} className="space-y-6" data-reveal>
+                    <header>
+                      <h3 className="text-lead text-ink">{job.role}</h3>
+                      <p>
+                        {job.organisation} · {job.location}
+                      </p>
+                      <p className="text-soft tabular-nums">{job.timeline}</p>
+                    </header>
+                    {job.teams.map((team) => (
+                      <div key={team.name ?? job.role}>
+                        {team.name ? <h4 className="font-semibold">{team.name}</h4> : null}
+                        <ul className={bulletList}>
+                          {team.bullets.map((bullet) => (
+                            <li key={bullet}>{bullet}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </article>
+                ))}
+              </section>
+
+              {/* Skills */}
+              <section aria-labelledby="skills-title" data-stage="portrait" className="space-y-10">
+                <div data-reveal>
+                  <Heading id="skills-title">Skills</Heading>
+                </div>
+                <div className="gap-x-10 sm:columns-2" data-reveal>
+                  {skillGroups.map((group) => (
+                    <div key={group.title} className="mb-8 break-inside-avoid">
+                      <h3 className="text-soft">{group.title}</h3>
+                      <ul>
+                        {group.items.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* Projects */}
+              <section aria-labelledby="projects-title" data-stage="dashboard" className="space-y-12">
+                <div data-reveal>
+                  <Heading id="projects-title">Projects</Heading>
+                </div>
+                {projects.map((project) => (
+                  <article key={project.name} className="space-y-4" data-reveal>
+                    <h3 className="text-lead text-ink">{project.name}</h3>
+                    <p>{project.description}</p>
+                    {project.flow ? (
+                      <ol className="list-decimal space-y-1 pl-6 marker:text-ink">
+                        {project.flow.map((step) => (
+                          <li key={step}>{step}</li>
+                        ))}
+                      </ol>
+                    ) : null}
+                    {project.highlights ? (
+                      <ul className={bulletList}>
+                        {project.highlights.map((highlight) => (
+                          <li key={highlight}>{highlight}</li>
+                        ))}
+                      </ul>
+                    ) : null}
+                    <p className="text-soft">Built with {project.stack.join(", ")}</p>
+                    {project.link ? (
+                      <p>
+                        <Link
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block py-1 font-semibold"
+                        >
+                          View project →
+                        </Link>
+                      </p>
+                    ) : (
+                      <p className="text-soft">{project.pendingNote}</p>
+                    )}
+                  </article>
+                ))}
+              </section>
+
+              {/* Awards */}
+              <section aria-labelledby="awards-title" className="space-y-12">
+                <div data-reveal>
+                  <Heading id="awards-title">Awards</Heading>
+                </div>
+                {awards.map((award) => (
+                  <article
+                    key={award.title}
+                    data-stage={award.image ? awardKey(award.title) : undefined}
+                    className="space-y-4"
+                    data-reveal
+                  >
+                    <h3 className="text-lead text-ink">{award.title}</h3>
+                    <p className="font-semibold">{award.result}</p>
+                    <p>{award.summary}</p>
+                    {award.image ? <AwardPicture image={award.image} /> : null}
+                    {award.categories ? (
+                      <ul className="space-y-8 pt-2">
+                        {award.categories.map((category) => (
+                          <li
+                            key={category.name}
+                            data-stage={awardKey(award.title, category.name)}
+                            className="space-y-3"
+                          >
+                            <p>
+                              <span className="font-semibold">{category.name}</span>
+                              {category.link ? (
+                                <>
+                                  {" · "}
+                                  <Link
+                                    href={category.link.href}
+                                    target={category.link.href.startsWith("http") ? "_blank" : undefined}
+                                    rel="noopener noreferrer"
+                                    className="inline-block py-1"
+                                  >
+                                    {category.link.label} →
+                                  </Link>
+                                </>
+                              ) : null}
+                            </p>
+                            <AwardPicture image={category.image} />
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
+                    {award.links.length > 0 ? (
+                      <p className="flex flex-wrap gap-x-6">
+                        {award.links.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block py-1 font-semibold"
+                          >
+                            {link.label} →
+                          </Link>
+                        ))}
+                      </p>
+                    ) : null}
+                  </article>
+                ))}
+              </section>
+            </div>
+          </div>
+        </div>
+
+        {/* Closing band: breaks the split and runs full width */}
+        <div className="on-field bg-field text-field-ink">
+          <div className="mx-auto max-w-[90rem] space-y-32 px-6 py-32 sm:px-10 lg:px-16 lg:py-40">
+            <div className="grid gap-20 lg:grid-cols-2 lg:gap-24">
+              <section aria-labelledby="education-title" className="space-y-8">
+                <h2 id="education-title" className="text-h2">
+                  Education
+                </h2>
+                <ul className="space-y-8">
+                  {education.map((entry) => (
+                    <li key={entry.school}>
+                      <h3 className="text-lead">{entry.degree}</h3>
+                      <p>
+                        {entry.school} · {entry.location}
+                      </p>
+                      <p className="text-field-soft">{entry.timeline}</p>
                     </li>
                   ))}
                 </ul>
-                <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                  {project.highlights.map((highlight) => (
-                    <li key={highlight} className="flex gap-2">
-                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-primary" />
-                      <span>{highlight}</span>
-                    </li>
+              </section>
+
+              <section aria-labelledby="certifications-title" className="space-y-8">
+                <h2 id="certifications-title" className="text-h2">
+                  Certifications
+                </h2>
+                <ul className="space-y-2">
+                  {certifications.map((cert) => (
+                    <li key={cert}>{cert}</li>
                   ))}
                 </ul>
-                <Link
-                  href={project.link}
-                  target="_blank"
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary transition hover:opacity-80"
-                >
-                  View project <ExternalLink className="h-4 w-4" />
-                </Link>
-              </article>
-            ))}
-          </div>
+              </section>
+            </div>
 
-          <GithubStream />
-        </section>
-
-        {/* Contact */}
-        <section
-          id="contact"
-          className="rounded-3xl border border-border bg-gradient-to-br from-primary/10 to-transparent p-8 text-center"
-        >
-          <SectionTitle
-            eyebrow="Contact"
-            title="Let’s build human-centered, data-led products together."
-            description="Open to research fellowships, analytics product roles, and civic innovation collaborations."
-          />
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <Link
-              href="mailto:harrymystogan@gmail.com"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
-            >
-              <Mail className="h-4 w-4" />
-              Email Avery
-            </Link>
-            <Link
-              href={contact.github}
-              target="_blank"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-8 py-3 text-sm font-semibold transition hover:border-primary hover:text-primary"
-            >
-              <Github className="h-4 w-4" />
-              GitHub Profile
-            </Link>
-            <Link
-              href={contact.linkedin}
-              target="_blank"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-8 py-3 text-sm font-semibold transition hover:border-primary hover:text-primary"
-            >
-              <Linkedin className="h-4 w-4" />
-              LinkedIn
-            </Link>
-            <Link
-              href="https://github.com/AveryDoan/RESUME"
-              target="_blank"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-8 py-3 text-sm font-semibold transition hover:border-primary hover:text-primary"
-            >
-              Resume Repo <ExternalLink className="h-4 w-4" />
-            </Link>
+            <section aria-labelledby="contact-title" className="grid gap-16 lg:grid-cols-2 lg:gap-24">
+              <div className="space-y-8">
+                <h2 id="contact-title" className="text-h2">
+                  Contact
+                </h2>
+                <MailPrompt email={contact.email} />
+              </div>
+              <dl className="space-y-5 lg:pt-24">
+                <div>
+                  <dt className="text-field-soft">Email</dt>
+                  <dd>
+                    <Link href={`mailto:${contact.email}`}>{contact.email}</Link>
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-field-soft">Based in</dt>
+                  <dd>{contact.location}</dd>
+                </div>
+                <div>
+                  <dt className="text-field-soft">LinkedIn</dt>
+                  <dd>
+                    <Link href={contact.linkedin} target="_blank" rel="noopener noreferrer">
+                      linkedin.com/in/avery-doan
+                    </Link>
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-field-soft">GitHub</dt>
+                  <dd>
+                    <Link href={contact.github} target="_blank" rel="noopener noreferrer">
+                      github.com/AveryDoan
+                    </Link>
+                  </dd>
+                </div>
+                {resumeHref ? (
+                  <div>
+                    <dt className="text-field-soft">Resume</dt>
+                    <dd>
+                      <Link href={resumeHref}>Download the PDF</Link>
+                    </dd>
+                  </div>
+                ) : null}
+              </dl>
+            </section>
           </div>
-        </section>
-      </div>
-    </div>
+        </div>
+      </main>
+
+      <footer className="on-field bg-field px-6 pb-10 text-field-ink sm:px-10 lg:px-16">
+        <p className="mx-auto max-w-[90rem] text-[clamp(3rem,13vw,12rem)] leading-[0.9] tracking-[-0.04em]">
+          {contact.shortName}
+        </p>
+        <p className="mx-auto mt-8 max-w-[90rem] text-small text-field-soft">
+          © {new Date().getFullYear()} {contact.name}. Photographs are my own.
+        </p>
+      </footer>
+    </>
+  );
+}
+
+/** On a phone the stage scrolls away, so each award carries its own picture inline. */
+function AwardPicture({ image }: { image: AwardImage }) {
+  return (
+    <figure className="lg:hidden">
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width={image.width}
+        height={image.height}
+        sizes="100vw"
+        loading="lazy"
+        className="h-auto w-full"
+      />
+      <figcaption className="mt-2 text-small text-soft">{image.caption}</figcaption>
+    </figure>
   );
 }
