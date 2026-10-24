@@ -120,7 +120,7 @@ export default function Home() {
         >
           <SectionTitle
             eyebrow="Skills"
-            title="End-to-end analytics, Microsoft Fabric first."
+            title="End-to-end analytics."
           />
           <div className="grid gap-4 md:grid-cols-2">
             {skillGroups.map((group) => (
