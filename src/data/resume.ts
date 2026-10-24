@@ -136,6 +136,7 @@ export const skillGroups = [
 ];
 
 export const certifications = [
+  "Fabric Analytics Engineer Associate",
   "Google Professional Data Analyst (Coursera)",
   "Alteryx: Data Preparation & Machine Learning",
   "DataCamp Data Analyst",
