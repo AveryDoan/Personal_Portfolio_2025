@@ -1,6 +1,5 @@
 import PortfolioHero from "@/components/ui/portfolio-hero";
 import {
-  RESUME_URL,
   achievements,
   certifications,
   contact,
@@ -14,7 +13,6 @@ import {
   ArrowUpRight,
   CheckCircle2,
   ExternalLink,
-  FileText,
   Github,
   Linkedin,
   Mail,
@@ -342,14 +340,6 @@ export default function Home() {
               className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
             >
               Email Avery <ArrowUpRight className="h-4 w-4" />
-            </Link>
-            <Link
-              href={RESUME_URL}
-              target="_blank"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-8 py-3 text-sm font-semibold transition hover:border-primary hover:text-primary"
-            >
-              <FileText className="h-4 w-4" />
-              Resume (PDF)
             </Link>
             <Link
               href={contact.github}

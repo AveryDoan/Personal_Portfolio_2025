@@ -15,7 +15,7 @@ npm run build   # production build
 - `src/data/resume.ts`: all content (experience, skills, projects, awards, education, certifications, contact, gallery slides). The resume is the source of truth, so edit here first.
 - `src/app/page.tsx`: the page sections. `src/components/ui/portfolio-hero.tsx` is the animated hero.
 - `public/images/`: optimised web images used by the site. `public/assets/` holds the original photographs.
-- `public/avery-doan-resume.pdf`: the resume linked from the Contact section. Replace the file to update it.
+- Resume PDF: not published yet. Add it to `public/` and link it from the Contact section in `src/app/page.tsx` once the corrected version is ready.
 - `public/og.jpg`: the 1200×630 link-preview image.
 
 ## The site address lives in one place

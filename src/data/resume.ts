@@ -11,8 +11,6 @@ export const contact = {
     "Data Analyst in the NT Government (Department of Children and Families). Evidence-based reporting, Power BI dashboards and data pipelines, with insights explained in plain English.",
 };
 
-export const RESUME_URL = "/avery-doan-resume.pdf";
-
 export const education = [
   {
     school: "Charles Darwin University",
@@ -136,7 +134,6 @@ export const skillGroups = [
 ];
 
 export const certifications = [
-  "Fabric Analytics Engineer Associate",
   "Google Professional Data Analyst (Coursera)",
   "Alteryx: Data Preparation & Machine Learning",
   "DataCamp Data Analyst",
