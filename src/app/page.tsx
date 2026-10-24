@@ -242,7 +242,7 @@ export default function Home() {
                     <TextStaggerHover
                       key={slide.title}
                       index={index}
-                      className="cursor-pointer text-3xl font-bold uppercase tracking-tighter"
+                      className="cursor-pointer text-2xl font-bold uppercase tracking-tighter"
                       text={slide.title}
                     />
                   ))}

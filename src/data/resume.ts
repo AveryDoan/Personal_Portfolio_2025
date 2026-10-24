@@ -95,6 +95,42 @@ export const experience: Role[] = [
       },
     ],
   },
+  {
+    role: "Digital Marketing Analyst",
+    company: "Terra Sana Environmental Consultant",
+    location: "Sydney, NSW",
+    timeline: "Mar 2023 – Aug 2023",
+    teams: [
+      {
+        bullets: [
+          {
+            text: "Shipped end-to-end SEO and analytics modernization—resolving media storage issues and improving page performance by 1000%.",
+          },
+          {
+            text: "Built Tableau dashboards fed by Google Analytics + SEMrush to brief executives on growth levers.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    role: "Digital Marketing Intern",
+    company: "Wedded Wonderland",
+    location: "Sydney, NSW",
+    timeline: "Nov 2023 – Jan 2024",
+    teams: [
+      {
+        bullets: [
+          {
+            text: "Set up Klaviyo automations for SMS + email journeys and mapped retention segments in Salesforce.",
+          },
+          {
+            text: "Amplified community management loops through CRM-driven personalization.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 // Microsoft Fabric first.
@@ -306,5 +342,40 @@ export const mediaSlides = [
     title: "Coding Champion",
     src: "/images/award-coding.webp",
     alt: "Winning coding team on stage in front of the sign-language recognition slide",
+  },
+  {
+    title: "With the Trophies",
+    src: "/images/stage-portrait.webp",
+    alt: "Avery smiling with arms open beside a table of framed award certificates and glass trophies",
+  },
+  {
+    title: "Business Innovation Pitch",
+    src: "/images/award-business-innovation.webp",
+    alt: "Team presenting the NT Shift Surge concept on stage beneath a slide reading Jobs when you need them. Staff when you need them.",
+  },
+  {
+    title: "Research Competition",
+    src: "/images/award-research-team.webp",
+    alt: "Research Competition winners on stage in front of the winner slide",
+  },
+  {
+    title: "Poster Competition",
+    src: "/images/award-poster.webp",
+    alt: "Poster Competition winners on stage in front of the winner slide",
+  },
+  {
+    title: "The Research Poster",
+    src: "/images/research-poster.webp",
+    alt: "AI Facial Analysis research poster on detecting mental health risks in mining and construction",
+  },
+  {
+    title: "Rimpa Dashboard",
+    src: "/images/rimpa-dashboard-2.webp",
+    alt: "Dashboard of priority actions for cutting a business's digital carbon footprint",
+  },
+  {
+    title: "AI Challenge Runner-Up",
+    src: "/images/award-ai-challenge.webp",
+    alt: "Students receiving certificates on stage in front of the AI Challenge Runner-Up slide",
   },
 ];
