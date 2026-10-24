@@ -132,11 +132,11 @@ export default function Component() {
 
   const menuItems = [
     { label: "HOME", href: "#top", highlight: true },
-    { label: "ABOUT", href: "#about" },
-    { label: "PROJECTS", href: "#projects" },
     { label: "EXPERIENCE", href: "#experience" },
+    { label: "SKILLS", href: "#skills" },
+    { label: "PROJECTS", href: "#projects" },
+    { label: "AWARDS", href: "#awards" },
     { label: "EDUCATION", href: "#education" },
-    { label: "WRITING", href: "#writing" },
     { label: "CONTACT", href: "#contact" },
   ];
 
@@ -215,8 +215,8 @@ export default function Component() {
             }}
           >
             <Image
-              src={resolveAsset("/assets/signature.png")}
-              alt="Signature"
+              src={resolveAsset("/images/monogram.webp")}
+              alt="AD monogram"
               width={20}
               height={20}
               className="object-contain"
@@ -244,6 +244,7 @@ export default function Component() {
 
       {/* Hero Section */}
       <main className="relative flex min-h-screen flex-col">
+        <h1 className="sr-only">Avery Doan, Data Analyst, NT Government</h1>
         {/* Centered Main Name - Always Perfectly Centered */}
         <div className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 px-4">
           <div className="relative text-center">
@@ -278,8 +279,8 @@ export default function Component() {
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
               <div className="relative h-[110px] w-[65px] overflow-hidden rounded-full shadow-2xl transition-transform duration-300 hover:scale-110 cursor-pointer sm:h-[152px] sm:w-[90px] md:h-[185px] md:w-[110px] lg:h-[218px] lg:w-[129px]">
                 <Image
-                  src={resolveAsset("/assets/profile-pic.png")}
-                  alt="Profile"
+                  src={resolveAsset("/images/portrait-cutout.webp")}
+                  alt="Avery Doan"
                   fill
                   sizes="(max-width: 768px) 120px, 160px"
                   className="object-cover"
@@ -293,7 +294,7 @@ export default function Component() {
         <div className="absolute left-1/2 bottom-16 w-full -translate-x-1/2 px-6 sm:bottom-20 md:bottom-24 lg:bottom-32 xl:bottom-36">
           <div className="flex justify-center">
             <BlurText
-              text="Designing human experiences in code."
+              text="Data Analyst, NT Government. Evidence-based reporting in plain English."
               delay={150}
               animateBy="words"
               direction="top"
