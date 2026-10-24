@@ -1,0 +1,3355 @@
+{
+ "url": "http://localhost:4173/",
+ "at": "2026-10-24T03:14:20.513Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    1,
+    0.59,
+    0.73,
+    0.63,
+    0.78,
+    0.73,
+    0.59,
+    0.63
+   ],
+   "motion": {
+    "elements": 83,
+    "css": 2,
+    "transitions": 24,
+    "scripted": 57,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7045,
+     "screens": 7.8,
+     "words": 1063,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 38,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "profile-pic.png",
+      "all-medals.jpg",
+      "nt-digital-excellence.jpg",
+      "business-innovation-1.png",
+      "rimpa1.png",
+      "coding-winner.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A V E R Y",
+     "words": 5,
+     "chars": 9,
+     "lines": 1,
+     "size": 210,
+     "vw": 14.6,
+     "font": "Fira Code",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.75,
+     "upper": true,
+     "italic": false,
+     "mono": true,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.4,
+     "top": 293,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": null,
+    "headings": [
+     {
+      "text": "A V E R Y",
+      "words": 5,
+      "chars": 9,
+      "lines": 1,
+      "size": 210,
+      "vw": 14.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.4,
+      "top": 293,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "D O A N",
+      "words": 4,
+      "chars": 7,
+      "lines": 1,
+      "size": 210,
+      "vw": 14.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.32,
+      "top": 450,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Le Quynh Nhu Doan (Avery)",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.69,
+      "top": 1025,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Evidence-based storytelling across science, retail, and civic tech.",
+      "words": 8,
+      "chars": 67,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 1422,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Always mixing theory and practice.",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 2363,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "End-to-end product data stack.",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 2363,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Continuous learning loops.",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 3175,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Awards and builds in one motion.",
+      "words": 6,
+      "chars": 32,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 3557,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A visual timeline of builds.",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 4951,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I I T T C C O O D D E E F F A A I I R R ' ' 2 2 5 5",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5168,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "D D I I G G I I T T A A L L E E X X C C E E L L L L E E N N C C E E",
+      "words": 34,
+      "chars": 67,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5231,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "B B U U S S I I N N E E S S S S I I N N N N O O V V A A T T I I O O N N",
+      "words": 36,
+      "chars": 71,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5294,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R I I M M P P A A G G L L O O B B A A L L",
+      "words": 22,
+      "chars": 43,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5357,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "C C O O D D I I N N G G C C H H A A M M P P I I O O N N",
+      "words": 28,
+      "chars": 55,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5420,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ML prototypes to production-grade insights.",
+      "words": 6,
+      "chars": 48,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 5716,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s build human-centered, data-led products together.",
+      "words": 6,
+      "chars": 55,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.69,
+      "top": 6794,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 3,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.04,
+       "mono": true
+      },
+      {
+       "family": "Antic",
+       "share": 0,
+       "mono": false
+      },
+      {
+       "family": "Fira Code",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      22,
+      36,
+      210
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 210,
+      "vw": 14.6,
+      "font": "Fira Code",
+      "text": "A"
+     },
+     "monoShare": 0.04,
+     "monoProseShare": 0.04,
+     "monoFamilies": [
+      "Fira Code",
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "A",
+      "V",
+      "E",
+      "R",
+      "Y",
+      "D"
+     ],
+     "microLabels": 19,
+     "microLabelShare": 0.04,
+     "microSamples": [
+      "About",
+      "Experience",
+      "November 2025 - current",
+      "Sep 2023 – Sep 2024",
+      "Mar 2023 – Aug 2023",
+      "Nov 2023 – Jan 2024"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.04,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "About",
+      "above": "Le Quynh Nhu Doan (Avery)",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 997
+     },
+     {
+      "text": "Experience",
+      "above": "Evidence-based storytelling across scien",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1394
+     },
+     {
+      "text": "Education",
+      "above": "Always mixing theory and practice.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2335
+     },
+     {
+      "text": "Skills",
+      "above": "End-to-end product data stack.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2335
+     },
+     {
+      "text": "Certifications",
+      "above": "Continuous learning loops.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3147
+     },
+     {
+      "text": "Little achievements",
+      "above": "Awards and builds in one motion.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3529
+     },
+     {
+      "text": "Media",
+      "above": "A visual timeline of builds.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4923
+     },
+     {
+      "text": "Projects",
+      "above": "From ML prototypes to production-grade i",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 5688
+     },
+     {
+      "text": "Contact",
+      "above": "Let’s build human-centered, data-led pro",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6766
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0a0a0a",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a1a1",
+       "share": 0.73
+      },
+      {
+       "color": "#fafafa",
+       "share": 0.22
+      },
+      {
+       "color": "#f9f9f9",
+       "share": 0.02
+      },
+      {
+       "color": "#e5e5e5",
+       "share": 0.01
+      },
+      {
+       "color": "#a2a2a2",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#e5e5e5",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.9
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 19,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 29,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 29,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 5,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 964
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1502
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2467
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 3665
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 5832
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 6343
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist mono",
+     "fira code",
+     "antic"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7045,
+    "margins": {
+     "left": 192,
+     "right": 218
+    },
+    "sections": [
+     {
+      "sel": "section#top.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 5,
+      "media": 1,
+      "middle": 7,
+      "heading": null,
+      "left": 546,
+      "right": 546,
+      "textLeft": 546,
+      "textRight": 546,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.grid.gap-8",
+      "tag": "section",
+      "top": 964,
+      "height": 350,
+      "words": 41,
+      "media": 0,
+      "middle": 42,
+      "heading": {
+       "text": "Le Quynh Nhu Doan (Avery)",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 225,
+      "right": 263,
+      "textLeft": 225,
+      "textRight": 263,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experience.space-y-10",
+      "tag": "section",
+      "top": 1394,
+      "height": 828,
+      "words": 200,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Evidence-based storytelling across science, retail",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 192,
+      "right": 217,
+      "textLeft": 192,
+      "textRight": 217,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#education.grid.gap-10",
+      "tag": "section",
+      "top": 2302,
+      "height": 724,
+      "words": 100,
+      "media": 0,
+      "middle": 92,
+      "heading": {
+       "text": "Always mixing theory and practice.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 225,
+      "right": 269,
+      "textLeft": 225,
+      "textRight": 269,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 3106,
+      "height": 366,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Continuous learning loops.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 233,
+      "right": 489,
+      "textLeft": 233,
+      "textRight": 489,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#Little achievements.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 3552,
+      "height": 1250,
+      "words": 341,
+      "media": 0,
+      "middle": 17,
+      "heading": {
+       "text": "Awards and builds in one motion.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 233,
+      "right": 266,
+      "textLeft": 233,
+      "textRight": 266,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#media.rounded-3xl.border",
+      "tag": "section",
+      "top": 4882,
+      "height": 726,
+      "words": 14,
+      "media": 5,
+      "middle": 97,
+      "heading": {
+       "text": "A visual timeline of builds.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 233,
+      "right": 268,
+      "textLeft": 233,
+      "textRight": 813,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.space-y-10",
+      "tag": "section",
+      "top": 5688,
+      "height": 965,
+      "words": 198,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From ML prototypes to production-grade insights.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 192,
+      "right": 218,
+      "textLeft": 192,
+      "textRight": 218,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.rounded-3xl.border",
+      "tag": "section",
+      "top": 6733,
+      "height": 248,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s build human-centered, data-led products toge",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 292,
+      "right": 292,
+      "textLeft": 292,
+      "textRight": 292,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 217,
+      "n": 8
+     },
+     {
+      "x": 258,
+      "n": 6
+     },
+     {
+      "x": 753,
+      "n": 6
+     },
+     {
+      "x": 233,
+      "n": 4
+     },
+     {
+      "x": 246,
+      "n": 3
+     },
+     {
+      "x": 192,
+      "n": 2
+     },
+     {
+      "x": 577,
+      "n": 2
+     },
+     {
+      "x": 937,
+      "n": 2
+     },
+     {
+      "x": 788,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 34,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.33,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 540,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    1,
+    0.66,
+    0.86,
+    0.86,
+    0.86,
+    0.92,
+    0.8,
+    0.79,
+    0.86,
+    0.68
+   ],
+   "motion": {
+    "elements": 83,
+    "css": 2,
+    "transitions": 24,
+    "scripted": 57,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9470,
+     "screens": 9.2,
+     "words": 1063,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 38,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "all-medals.jpg",
+      "nt-digital-excellence.jpg",
+      "business-innovation-1.png",
+      "rimpa1.png",
+      "coding-winner.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A V E R Y",
+     "words": 5,
+     "chars": 9,
+     "lines": 1,
+     "size": 180,
+     "vw": 23.4,
+     "font": "Fira Code",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.75,
+     "upper": true,
+     "italic": false,
+     "mono": true,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.64,
+     "top": 377,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": null,
+    "headings": [
+     {
+      "text": "A V E R Y",
+      "words": 5,
+      "chars": 9,
+      "lines": 1,
+      "size": 180,
+      "vw": 23.4,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.64,
+      "top": 377,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "D O A N",
+      "words": 4,
+      "chars": 7,
+      "lines": 1,
+      "size": 180,
+      "vw": 23.4,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.52,
+      "top": 512,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Le Quynh Nhu Doan (Avery)",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 1149,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Evidence-based storytelling across science, retail, and civic tech.",
+      "words": 8,
+      "chars": 67,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1624,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Always mixing theory and practice.",
+      "words": 5,
+      "chars": 34,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 2737,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "End-to-end product data stack.",
+      "words": 4,
+      "chars": 30,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 3129,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Continuous learning loops.",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3881,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Awards and builds in one motion.",
+      "words": 6,
+      "chars": 32,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 4335,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A visual timeline of builds.",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 6393,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I I T T C C O O D D E E F F A A I I R R ' ' 2 2 5 5",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.49,
+      "top": 6509,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "D D I I G G I I T T A A L L E E X X C C E E L L L L E E N N C C E E",
+      "words": 34,
+      "chars": 67,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.49,
+      "top": 6572,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "B B U U S S I I N N E E S S S S I I N N N N O O V V A A T T I I O O N N",
+      "words": 36,
+      "chars": 71,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.49,
+      "top": 6635,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R I I M M P P A A G G L L O O B B A A L L",
+      "words": 22,
+      "chars": 43,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.49,
+      "top": 6698,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "C C O O D D I I N N G G C C H H A A M M P P I I O O N N",
+      "words": 28,
+      "chars": 55,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.49,
+      "top": 6761,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ML prototypes to production-grade insights.",
+      "words": 6,
+      "chars": 48,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7389,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s build human-centered, data-led products together.",
+      "words": 6,
+      "chars": 55,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 9093,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 3,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.04,
+       "mono": true
+      },
+      {
+       "family": "Antic",
+       "share": 0,
+       "mono": false
+      },
+      {
+       "family": "Fira Code",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      36,
+      180
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 93,
+     "max": {
+      "size": 180,
+      "vw": 23.4,
+      "font": "Fira Code",
+      "text": "A"
+     },
+     "monoShare": 0.04,
+     "monoProseShare": 0.04,
+     "monoFamilies": [
+      "Fira Code",
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "A",
+      "V",
+      "E",
+      "R",
+      "Y",
+      "D"
+     ],
+     "microLabels": 19,
+     "microLabelShare": 0.04,
+     "microSamples": [
+      "About",
+      "Experience",
+      "November 2025 - current",
+      "Sep 2023 – Sep 2024",
+      "Mar 2023 – Aug 2023",
+      "Nov 2023 – Jan 2024"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.04,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "About",
+      "above": "Le Quynh Nhu Doan (Avery)",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1121
+     },
+     {
+      "text": "Experience",
+      "above": "Evidence-based storytelling across scien",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1596
+     },
+     {
+      "text": "Education",
+      "above": "Always mixing theory and practice.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2709
+     },
+     {
+      "text": "Skills",
+      "above": "End-to-end product data stack.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3101
+     },
+     {
+      "text": "Certifications",
+      "above": "Continuous learning loops.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3853
+     },
+     {
+      "text": "Little achievements",
+      "above": "Awards and builds in one motion.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4307
+     },
+     {
+      "text": "Media",
+      "above": "A visual timeline of builds.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6365
+     },
+     {
+      "text": "Projects",
+      "above": "From ML prototypes to production-grade i",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7361
+     },
+     {
+      "text": "Contact",
+      "above": "Let’s build human-centered, data-led pro",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 9065
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0a0a0a",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a1a1",
+       "share": 0.73
+      },
+      {
+       "color": "#fafafa",
+       "share": 0.22
+      },
+      {
+       "color": "#f9f9f9",
+       "share": 0.02
+      },
+      {
+       "color": "#e5e5e5",
+       "share": 0.01
+      },
+      {
+       "color": "#a2a2a2",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#e5e5e5",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.9
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 19,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 33,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 33,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 5,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3193
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4013
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4443
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 8618
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist mono",
+     "fira code",
+     "antic"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9470,
+    "margins": {
+     "left": 32,
+     "right": 62
+    },
+    "sections": [
+     {
+      "sel": "section#top.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 5,
+      "media": 1,
+      "middle": 6,
+      "heading": null,
+      "left": 226,
+      "right": 226,
+      "textLeft": 226,
+      "textRight": 226,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.grid.gap-8",
+      "tag": "section",
+      "top": 1088,
+      "height": 428,
+      "words": 41,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Le Quynh Nhu Doan (Avery)",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 168,
+      "textLeft": 65,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experience.space-y-10",
+      "tag": "section",
+      "top": 1596,
+      "height": 1000,
+      "words": 200,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Evidence-based storytelling across science, retail",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 57,
+      "textLeft": 32,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#education.grid.gap-10",
+      "tag": "section",
+      "top": 2676,
+      "height": 1056,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Always mixing theory and practice.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 168,
+      "textLeft": 65,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 3812,
+      "height": 438,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Continuous learning loops.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 73,
+      "right": 111,
+      "textLeft": 73,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#Little achievements.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 4330,
+      "height": 1914,
+      "words": 341,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Awards and builds in one motion.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 73,
+      "right": 108,
+      "textLeft": 73,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#media.rounded-3xl.border",
+      "tag": "section",
+      "top": 6324,
+      "height": 957,
+      "words": 14,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "A visual timeline of builds.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 73,
+      "right": 160,
+      "textLeft": 73,
+      "textRight": 301,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.space-y-10",
+      "tag": "section",
+      "top": 7361,
+      "height": 1591,
+      "words": 198,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From ML prototypes to production-grade insights.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 59,
+      "textLeft": 32,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.rounded-3xl.border",
+      "tag": "section",
+      "top": 9032,
+      "height": 374,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s build human-centered, data-led products toge",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 101,
+      "right": 101,
+      "textLeft": 101,
+      "textRight": 101,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6468,
+      "height": 388
+     }
+    ],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 57,
+      "n": 13
+     },
+     {
+      "x": 98,
+      "n": 12
+     },
+     {
+      "x": 73,
+      "n": 4
+     },
+     {
+      "x": 86,
+      "n": 3
+     },
+     {
+      "x": 32,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 34,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    0.87,
+    0.81,
+    0.86,
+    0.93,
+    0.81,
+    0.85,
+    0.93,
+    0.93,
+    0.93,
+    0.81,
+    0.76
+   ],
+   "motion": {
+    "elements": 83,
+    "css": 2,
+    "transitions": 24,
+    "scripted": 57,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 12893,
+     "screens": 15.3,
+     "words": 1063,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 38,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "all-medals.jpg",
+      "nt-digital-excellence.jpg",
+      "business-innovation-1.png",
+      "rimpa1.png",
+      "coding-winner.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A V E R Y",
+     "words": 5,
+     "chars": 9,
+     "lines": 1,
+     "size": 100,
+     "vw": 25.6,
+     "font": "Fira Code",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.75,
+     "upper": true,
+     "italic": false,
+     "mono": true,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.71,
+     "top": 345,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": null,
+    "headings": [
+     {
+      "text": "A V E R Y",
+      "words": 5,
+      "chars": 9,
+      "lines": 1,
+      "size": 100,
+      "vw": 25.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 345,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "D O A N",
+      "words": 4,
+      "chars": 7,
+      "lines": 1,
+      "size": 100,
+      "vw": 25.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.56,
+      "top": 422,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Le Quynh Nhu Doan (Avery)",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 969,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Evidence-based storytelling across science, retail, and civic tech.",
+      "words": 8,
+      "chars": 67,
+      "lines": 4,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1754,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Always mixing theory and practice.",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 3327,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "End-to-end product data stack.",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 3867,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Continuous learning loops.",
+      "words": 3,
+      "chars": 26,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 4771,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Awards and builds in one motion.",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 5445,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A visual timeline of builds.",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 8885,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I I T T C C O O D D E E F F A A I I R R ' ' 2 2 5 5",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9057,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "D D I I G G I I T T A A L L E E X X C C E E L L L L E E N N C C E E",
+      "words": 34,
+      "chars": 67,
+      "lines": 3,
+      "size": 36,
+      "vw": 9.2,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9112,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "B B U U S S I I N N E E S S S S I I N N N N O O V V A A T T I I O O N N",
+      "words": 36,
+      "chars": 71,
+      "lines": 3,
+      "size": 36,
+      "vw": 9.2,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9214,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R I I M M P P A A G G L L O O B B A A L L",
+      "words": 22,
+      "chars": 43,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9316,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "C C O O D D I I N N G G C C H H A A M M P P I I O O N N",
+      "words": 28,
+      "chars": 55,
+      "lines": 3,
+      "size": 36,
+      "vw": 9.2,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.11,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9371,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ML prototypes to production-grade insights.",
+      "words": 6,
+      "chars": 48,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 10022,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s build human-centered, data-led products together.",
+      "words": 6,
+      "chars": 55,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 12342,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 4,
+     "over2Lines": 6,
+     "statements": 1,
+     "centered": 3,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.04,
+       "mono": true
+      },
+      {
+       "family": "Antic",
+       "share": 0,
+       "mono": false
+      },
+      {
+       "family": "Fira Code",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      12,
+      14,
+      15,
+      16,
+      20,
+      30,
+      36,
+      100
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 100,
+      "vw": 25.6,
+      "font": "Fira Code",
+      "text": "A"
+     },
+     "monoShare": 0.04,
+     "monoProseShare": 0.04,
+     "monoFamilies": [
+      "Fira Code",
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "A",
+      "V",
+      "E",
+      "R",
+      "Y",
+      "D"
+     ],
+     "microLabels": 19,
+     "microLabelShare": 0.04,
+     "microSamples": [
+      "About",
+      "Experience",
+      "November 2025 - current",
+      "Sep 2023 – Sep 2024",
+      "Mar 2023 – Aug 2023",
+      "Nov 2023 – Jan 2024"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.04,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "About",
+      "above": "Le Quynh Nhu Doan (Avery)",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 941
+     },
+     {
+      "text": "Experience",
+      "above": "Evidence-based storytelling across scien",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1726
+     },
+     {
+      "text": "Education",
+      "above": "Always mixing theory and practice.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3299
+     },
+     {
+      "text": "Skills",
+      "above": "End-to-end product data stack.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3839
+     },
+     {
+      "text": "Certifications",
+      "above": "Continuous learning loops.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4743
+     },
+     {
+      "text": "Little achievements",
+      "above": "Awards and builds in one motion.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 5417
+     },
+     {
+      "text": "Media",
+      "above": "A visual timeline of builds.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8857
+     },
+     {
+      "text": "Projects",
+      "above": "From ML prototypes to production-grade i",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 9994
+     },
+     {
+      "text": "Contact",
+      "above": "Let’s build human-centered, data-led pro",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 12314
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0a0a0a",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a1a1",
+       "share": 0.73
+      },
+      {
+       "color": "#fafafa",
+       "share": 0.22
+      },
+      {
+       "color": "#f9f9f9",
+       "share": 0.02
+      },
+      {
+       "color": "#e5e5e5",
+       "share": 0.01
+      },
+      {
+       "color": "#a2a2a2",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#e5e5e5",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.9
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 19,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 31,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 31,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 5,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 908
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1938
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3963
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 5609
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 10230
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 11523
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist mono",
+     "fira code",
+     "antic"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 12893,
+    "margins": {
+     "left": 24,
+     "right": 55
+    },
+    "sections": [
+     {
+      "sel": "section#top.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 5,
+      "media": 0,
+      "middle": 5,
+      "heading": null,
+      "left": 77,
+      "right": 77,
+      "textLeft": 77,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.grid.gap-8",
+      "tag": "section",
+      "top": 908,
+      "height": 738,
+      "words": 41,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Le Quynh Nhu Doan (Avery)",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 57,
+      "right": 72,
+      "textLeft": 57,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.space-y-3",
+      "tag": "header",
+      "top": 1726,
+      "height": 172,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Evidence-based storytelling across science, retail",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 67,
+      "textLeft": 24,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.space-y-6",
+      "tag": "div",
+      "top": 1938,
+      "height": 1248,
+      "words": 191,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vacation Trainee - Data Team",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 49,
+      "right": 50,
+      "textLeft": 49,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.space-y-6",
+      "tag": "div",
+      "top": 3299,
+      "height": 500,
+      "words": 40,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Always mixing theory and practice.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 57,
+      "right": 76,
+      "textLeft": 57,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.space-y-6",
+      "tag": "div",
+      "top": 3839,
+      "height": 750,
+      "words": 60,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "End-to-end product data stack.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 57,
+      "right": 75,
+      "textLeft": 57,
+      "textRight": 75,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 4702,
+      "height": 658,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Continuous learning loops.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 67,
+      "textLeft": 65,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.space-y-3",
+      "tag": "header",
+      "top": 5417,
+      "height": 160,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Awards and builds in one motion.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 89,
+      "textLeft": 65,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-4",
+      "tag": "div",
+      "top": 5609,
+      "height": 3086,
+      "words": 330,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "IT Code Fair 2025 - Business Innovation - Winner",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 90,
+      "right": 90,
+      "textLeft": 90,
+      "textRight": 90,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#media.rounded-3xl.border",
+      "tag": "section",
+      "top": 8816,
+      "height": 1098,
+      "words": 14,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "A visual timeline of builds.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 65,
+      "textLeft": 65,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.space-y-3",
+      "tag": "header",
+      "top": 9994,
+      "height": 196,
+      "words": 15,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From ML prototypes to production-grade insights.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 47,
+      "textLeft": 24,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-6",
+      "tag": "div",
+      "top": 10230,
+      "height": 1196,
+      "words": 155,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Virtual Mouse Control System",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 49,
+      "right": 56,
+      "textLeft": 49,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.overflow-hidden",
+      "tag": "div",
+      "top": 11466,
+      "height": 735,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Trust-Lens-Demo",
+       "size": 16,
+       "tag": "h4"
+      },
+      "left": 66,
+      "right": 66,
+      "textLeft": 66,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.rounded-3xl.border",
+      "tag": "section",
+      "top": 12281,
+      "height": 548,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s build human-centered, data-led products toge",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 76,
+      "right": 76,
+      "textLeft": 76,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 480,
+      "height": 276
+     },
+     {
+      "top": 9016,
+      "height": 472
+     }
+    ],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 49,
+      "n": 13
+     },
+     {
+      "x": 90,
+      "n": 12
+     },
+     {
+      "x": 65,
+      "n": 4
+     },
+     {
+      "x": 78,
+      "n": 3
+     },
+     {
+      "x": 24,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 34,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "9 eyebrow/kicker label(s) above headings: \"About\" above \"Le Quynh Nhu Doan (Avery)\"; \"Experience\" above \"Evidence-based storytelling across scien\"; \"Education\" above \"Always mixing theory and practice.\"; \"Skills\" above \"End-to-end product data stack.\"; \"Certifications\" above \"Continuous learning loops.\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: Fira Code, Geist Mono — e.g. \"A\", \"V\", \"E\", \"R\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "19 tiny uppercase letter-spaced labels (e.g. \"About\", \"Experience\", \"November 2025 - current\", \"Sep 2023 – Sep 2024\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "19 box-shadow(s) on elements at rest: div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "29 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "3 row(s) of identical cards each topped with a small icon (6, 3, 4 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "28 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 192px on the left, 218px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The page has no visible h1.",
+   "fix": "Give the first screen a clear title in an h1 that says what this is (a name with what it does, the product with what it is for, the event with its date and place).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hero-void",
+   "width": 1440,
+   "message": "33% of the first screen is one empty block (540×780px at 0,120).",
+   "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 9 different lines (217px, 258px, 753px, 233px, 246px, 192px, 577px); the three most used hold only 59% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 768,
+   "message": "Longest paragraph runs about 93 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch)."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "6 headline(s) wrap past two lines at 390px: \"Evidence-based storytelling across science, reta\" → 4 lines (8 words, 30px); \"D D I I G G I I T T A A L L E E X X C C E E L L \" → 3 lines (34 words, 36px); \"B B U U S S I I N N E E S S S S I I N N N N O O \" → 3 lines (36 words, 36px); \"C C O O D D I I N N G G C C H H A A M M P P I I \" → 3 lines (28 words, 36px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The page sits off-centre: its content comes to 24px from the left edge but only to 55px from the right, at 390px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "A 472px stretch at 9016px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/desktop-fold.jpg",
+   "pages": [
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/desktop-page-01.jpg",
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/tablet-fold.jpg",
+   "pages": [
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/tablet-page-01.jpg",
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/mobile-fold.jpg",
+   "pages": [
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/mobile-page-01.jpg",
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/before/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

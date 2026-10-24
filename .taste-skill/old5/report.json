@@ -1,0 +1,3213 @@
+{
+ "url": "http://localhost:4183/",
+ "at": "2026-10-24T04:18:43.863Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    1,
+    0.71,
+    0.73,
+    0.62,
+    0.68,
+    0.78,
+    0.68,
+    0.68
+   ],
+   "motion": {
+    "elements": 86,
+    "css": 2,
+    "transitions": 22,
+    "scripted": 62,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7161,
+     "screens": 8,
+     "words": 1188,
+     "img": 17,
+     "video": 0,
+     "canvas": 0,
+     "svg": 37,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "portrait-cutout.webp",
+      "award-medals.webp",
+      "stage-portrait.webp",
+      "event-team.webp",
+      "award-ai-challenge.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A V E R Y",
+     "words": 5,
+     "chars": 9,
+     "lines": 1,
+     "size": 210,
+     "vw": 14.6,
+     "font": "Fira Code",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.75,
+     "upper": true,
+     "italic": false,
+     "mono": true,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.4,
+     "top": 293,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Avery Doan, Data Analyst, NT Government",
+     "words": 6,
+     "lines": 1,
+     "size": 16,
+     "font": "ui-sans-serif"
+    },
+    "headings": [
+     {
+      "text": "A V E R Y",
+      "words": 5,
+      "chars": 9,
+      "lines": 1,
+      "size": 210,
+      "vw": 14.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.4,
+      "top": 293,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "D O A N",
+      "words": 4,
+      "chars": 7,
+      "lines": 1,
+      "size": 210,
+      "vw": 14.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.32,
+      "top": 450,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Evidence-based reporting that decision-makers can act on.",
+      "words": 7,
+      "chars": 57,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 992,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "End-to-end analytics, Microsoft Fabric first.",
+      "words": 5,
+      "chars": 45,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.69,
+      "top": 2369,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From reporting pipelines to civic-tech builds.",
+      "words": 6,
+      "chars": 46,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 3180,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hackathon and competition wins.",
+      "words": 4,
+      "chars": 31,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 4598,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I I T T C C O O D D E E F F A A I I R R ’ ’ 2 2 5 5",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5681,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "D D I I G G I I T T A A L L E E X X C C E E L L L L E E N N C C E E",
+      "words": 34,
+      "chars": 67,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5740,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "B B U U S S I I N N E E S S S S I I N N N N O O V V A A T T I I O O N N",
+      "words": 36,
+      "chars": 71,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5799,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R E E S S E E A A R R C C H H",
+      "words": 16,
+      "chars": 31,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5858,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "P P O O S S T T E E R R & & C C O O D D I I N N G G",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5917,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R I I M M P P A A G G L L O O B B A A L L",
+      "words": 22,
+      "chars": 43,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5976,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Always mixing theory and practice.",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 6282,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Continuous learning loops.",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 6282,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s talk about reporting and analytics.",
+      "words": 6,
+      "chars": 41,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.69,
+      "top": 6858,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 3,
+     "medianWords": 7,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.03,
+       "mono": true
+      },
+      {
+       "family": "Antic",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Fira Code",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      22,
+      24,
+      30,
+      36,
+      210
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 142,
+     "max": {
+      "size": 210,
+      "vw": 14.6,
+      "font": "Fira Code",
+      "text": "A"
+     },
+     "monoShare": 0.03,
+     "monoProseShare": 0.03,
+     "monoFamilies": [
+      "Fira Code",
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "A",
+      "V",
+      "E",
+      "R",
+      "Y",
+      "D"
+     ],
+     "microLabels": 14,
+     "microLabelShare": 0.026,
+     "microSamples": [
+      "Experience",
+      "Nov 2025 – Present",
+      "Sep 2023 – Sep 2024",
+      "Mar 2023 – Aug 2023",
+      "Nov 2023 – Jan 2024",
+      "Skills"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0.04,
+     "smallText": 10
+    },
+    "eyebrows": [
+     {
+      "text": "Experience",
+      "above": "Evidence-based reporting that decision-m",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 964
+     },
+     {
+      "text": "Skills",
+      "above": "End-to-end analytics, Microsoft Fabric f",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2341
+     },
+     {
+      "text": "Projects",
+      "above": "From reporting pipelines to civic-tech b",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3152
+     },
+     {
+      "text": "Awards",
+      "above": "Hackathon and competition wins.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4570
+     },
+     {
+      "text": "Education",
+      "above": "Always mixing theory and practice.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6254
+     },
+     {
+      "text": "Certifications",
+      "above": "Continuous learning loops.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6254
+     },
+     {
+      "text": "Contact",
+      "above": "Let’s talk about reporting and analytics",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6830
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0a0a0a",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a1a1",
+       "share": 0.67
+      },
+      {
+       "color": "#fafafa",
+       "share": 0.24
+      },
+      {
+       "color": "#e5e5e5",
+       "share": 0.05
+      },
+      {
+       "color": "#f9f9f9",
+       "share": 0.02
+      },
+      {
+       "color": "#737373",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#262626",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.15
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 20,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 29,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 29,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 15,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 2308
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1108
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2441
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 3296
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4139
+      },
+      {
+       "count": 5,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4706
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist mono",
+     "fira code",
+     "antic"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7161,
+    "margins": {
+     "left": 192,
+     "right": 225
+    },
+    "sections": [
+     {
+      "sel": "section#top.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 9,
+      "media": 1,
+      "middle": 7,
+      "heading": null,
+      "left": 393,
+      "right": 393,
+      "textLeft": 393,
+      "textRight": 393,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#experience.space-y-10",
+      "tag": "section",
+      "top": 964,
+      "height": 1264,
+      "words": 433,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Evidence-based reporting that decision-makers can ",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 192,
+      "right": 217,
+      "textLeft": 192,
+      "textRight": 217,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 2308,
+      "height": 764,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "End-to-end analytics, Microsoft Fabric first.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 225,
+      "right": 450,
+      "textLeft": 225,
+      "textRight": 450,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.space-y-10",
+      "tag": "section",
+      "top": 3152,
+      "height": 1297,
+      "words": 266,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From reporting pipelines to civic-tech builds.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 192,
+      "right": 227,
+      "textLeft": 192,
+      "textRight": 227,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-4",
+      "tag": "div",
+      "top": 4706,
+      "height": 726,
+      "words": 185,
+      "media": 0,
+      "middle": 82,
+      "heading": {
+       "text": "NT Digital Excellence Award 2025",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 258,
+      "right": 280,
+      "textLeft": 258,
+      "textRight": 280,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div#media.space-y-6.pt-8",
+      "tag": "div",
+      "top": 5464,
+      "height": 636,
+      "words": 13,
+      "media": 15,
+      "middle": 166,
+      "heading": {
+       "text": "A visual timeline of builds.",
+       "size": 24,
+       "tag": "h3"
+      },
+      "left": 233,
+      "right": 288,
+      "textLeft": 233,
+      "textRight": 902,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#education.grid.gap-10",
+      "tag": "section",
+      "top": 6221,
+      "height": 496,
+      "words": 63,
+      "media": 0,
+      "middle": 92,
+      "heading": {
+       "text": "Always mixing theory and practice.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 225,
+      "right": 243,
+      "textLeft": 225,
+      "textRight": 243,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.rounded-3xl.border",
+      "tag": "section",
+      "top": 6797,
+      "height": 300,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s talk about reporting and analytics.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 363,
+      "right": 316,
+      "textLeft": 363,
+      "textRight": 316,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 217,
+      "n": 10
+     },
+     {
+      "x": 749,
+      "n": 10
+     },
+     {
+      "x": 258,
+      "n": 7
+     },
+     {
+      "x": 246,
+      "n": 6
+     },
+     {
+      "x": 192,
+      "n": 3
+     },
+     {
+      "x": 233,
+      "n": 2
+     },
+     {
+      "x": 788,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 39,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.28,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 600,
+     "h": 600
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    1,
+    0.76,
+    0.74,
+    0.74,
+    0.8,
+    0.86,
+    0.92,
+    0.86,
+    0.74
+   ],
+   "motion": {
+    "elements": 86,
+    "css": 2,
+    "transitions": 22,
+    "scripted": 62,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9213,
+     "screens": 9,
+     "words": 1188,
+     "img": 17,
+     "video": 0,
+     "canvas": 0,
+     "svg": 37,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "award-medals.webp",
+      "stage-portrait.webp",
+      "event-team.webp",
+      "award-ai-challenge.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A V E R Y",
+     "words": 5,
+     "chars": 9,
+     "lines": 1,
+     "size": 180,
+     "vw": 23.4,
+     "font": "Fira Code",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.75,
+     "upper": true,
+     "italic": false,
+     "mono": true,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.64,
+     "top": 377,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Avery Doan, Data Analyst, NT Government",
+     "words": 6,
+     "lines": 1,
+     "size": 16,
+     "font": "ui-sans-serif"
+    },
+    "headings": [
+     {
+      "text": "A V E R Y",
+      "words": 5,
+      "chars": 9,
+      "lines": 1,
+      "size": 180,
+      "vw": 23.4,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.64,
+      "top": 377,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "D O A N",
+      "words": 4,
+      "chars": 7,
+      "lines": 1,
+      "size": 180,
+      "vw": 23.4,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.52,
+      "top": 512,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Evidence-based reporting that decision-makers can act on.",
+      "words": 7,
+      "chars": 57,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1116,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "End-to-end analytics, Microsoft Fabric first.",
+      "words": 5,
+      "chars": 45,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 2713,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From reporting pipelines to civic-tech builds.",
+      "words": 6,
+      "chars": 46,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3624,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hackathon and competition wins.",
+      "words": 4,
+      "chars": 31,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 5592,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "I I T T C C O O D D E E F F A A I I R R ’ ’ 2 2 5 5",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.41,
+      "top": 6990,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "D D I I G G I I T T A A L L E E X X C C E E L L L L E E N N C C E E",
+      "words": 34,
+      "chars": 67,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.41,
+      "top": 7049,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "B B U U S S I I N N E E S S S S I I N N N N O O V V A A T T I I O O N N",
+      "words": 36,
+      "chars": 71,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.41,
+      "top": 7108,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R E E S S E E A A R R C C H H",
+      "words": 16,
+      "chars": 31,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.41,
+      "top": 7167,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "P P O O S S T T E E R R & & C C O O D D I I N N G G",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.41,
+      "top": 7226,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R I I M M P P A A G G L L O O B B A A L L",
+      "words": 22,
+      "chars": 43,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.41,
+      "top": 7285,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Always mixing theory and practice.",
+      "words": 5,
+      "chars": 34,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 7942,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Continuous learning loops.",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 8334,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s talk about reporting and analytics.",
+      "words": 6,
+      "chars": 41,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 8910,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 3,
+     "medianWords": 7,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.03,
+       "mono": true
+      },
+      {
+       "family": "Antic",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Fira Code",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      30,
+      36,
+      180
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 91,
+     "max": {
+      "size": 180,
+      "vw": 23.4,
+      "font": "Fira Code",
+      "text": "A"
+     },
+     "monoShare": 0.03,
+     "monoProseShare": 0.03,
+     "monoFamilies": [
+      "Fira Code",
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "A",
+      "V",
+      "E",
+      "R",
+      "Y",
+      "D"
+     ],
+     "microLabels": 14,
+     "microLabelShare": 0.026,
+     "microSamples": [
+      "Experience",
+      "Nov 2025 – Present",
+      "Sep 2023 – Sep 2024",
+      "Mar 2023 – Aug 2023",
+      "Nov 2023 – Jan 2024",
+      "Skills"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0.04,
+     "smallText": 10
+    },
+    "eyebrows": [
+     {
+      "text": "Experience",
+      "above": "Evidence-based reporting that decision-m",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1088
+     },
+     {
+      "text": "Skills",
+      "above": "End-to-end analytics, Microsoft Fabric f",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2685
+     },
+     {
+      "text": "Projects",
+      "above": "From reporting pipelines to civic-tech b",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3596
+     },
+     {
+      "text": "Awards",
+      "above": "Hackathon and competition wins.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 5564
+     },
+     {
+      "text": "Education",
+      "above": "Always mixing theory and practice.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7914
+     },
+     {
+      "text": "Certifications",
+      "above": "Continuous learning loops.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8306
+     },
+     {
+      "text": "Contact",
+      "above": "Let’s talk about reporting and analytics",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8882
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0a0a0a",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a1a1",
+       "share": 0.67
+      },
+      {
+       "color": "#fafafa",
+       "share": 0.24
+      },
+      {
+       "color": "#e5e5e5",
+       "share": 0.05
+      },
+      {
+       "color": "#f9f9f9",
+       "share": 0.02
+      },
+      {
+       "color": "#737373",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#262626",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.15
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 20,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 29,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 29,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 15,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2825
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 5109
+      },
+      {
+       "count": 5,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 5700
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist mono",
+     "fira code",
+     "antic"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9213,
+    "margins": {
+     "left": 32,
+     "right": 57
+    },
+    "sections": [
+     {
+      "sel": "section#top.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 9,
+      "media": 1,
+      "middle": 6,
+      "heading": null,
+      "left": 87,
+      "right": 87,
+      "textLeft": 87,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#experience.space-y-10",
+      "tag": "section",
+      "top": 1088,
+      "height": 1484,
+      "words": 433,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Evidence-based reporting that decision-makers can ",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 57,
+      "textLeft": 32,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 2652,
+      "height": 864,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "End-to-end analytics, Microsoft Fabric first.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 114,
+      "textLeft": 65,
+      "textRight": 114,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-6",
+      "tag": "div",
+      "top": 3740,
+      "height": 1272,
+      "words": 222,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Microsoft Fabric end-to-end project",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 57,
+      "right": 59,
+      "textLeft": 57,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.overflow-hidden",
+      "tag": "div",
+      "top": 5052,
+      "height": 391,
+      "words": 28,
+      "media": 0,
+      "middle": 58,
+      "heading": {
+       "text": "Personal_Portfolio_2025",
+       "size": 16,
+       "tag": "h4"
+      },
+      "left": 74,
+      "right": 74,
+      "textLeft": 74,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-4",
+      "tag": "div",
+      "top": 5700,
+      "height": 1122,
+      "words": 185,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "NT Digital Excellence Award 2025",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 98,
+      "right": 99,
+      "textLeft": 98,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div#media.space-y-6.pt-8",
+      "tag": "div",
+      "top": 6854,
+      "height": 906,
+      "words": 13,
+      "media": 15,
+      "middle": 0,
+      "heading": {
+       "text": "A visual timeline of builds.",
+       "size": 24,
+       "tag": "h3"
+      },
+      "left": 73,
+      "right": 160,
+      "textLeft": 73,
+      "textRight": 390,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#education.grid.gap-10",
+      "tag": "section",
+      "top": 7881,
+      "height": 888,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Always mixing theory and practice.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 168,
+      "textLeft": 65,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.rounded-3xl.border",
+      "tag": "section",
+      "top": 8849,
+      "height": 300,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s talk about reporting and analytics.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 85,
+      "right": 85,
+      "textLeft": 85,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6964,
+      "height": 412
+     }
+    ],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 57,
+      "n": 15
+     },
+     {
+      "x": 98,
+      "n": 11
+     },
+     {
+      "x": 86,
+      "n": 6
+     },
+     {
+      "x": 32,
+      "n": 3
+     },
+     {
+      "x": 73,
+      "n": 2
+     },
+     {
+      "x": 413,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 39,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    0.87,
+    0.92,
+    0.8,
+    0.93,
+    0.73,
+    0.92,
+    0.81,
+    0.86,
+    0.93,
+    0.93,
+    0.93
+   ],
+   "motion": {
+    "elements": 86,
+    "css": 2,
+    "transitions": 22,
+    "scripted": 62,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 12321,
+     "screens": 14.6,
+     "words": 1188,
+     "img": 17,
+     "video": 0,
+     "canvas": 0,
+     "svg": 37,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "award-medals.webp",
+      "stage-portrait.webp",
+      "event-team.webp",
+      "award-ai-challenge.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A V E R Y",
+     "words": 5,
+     "chars": 9,
+     "lines": 1,
+     "size": 100,
+     "vw": 25.6,
+     "font": "Fira Code",
+     "weight": 700,
+     "tracking": -0.05,
+     "leading": 0.75,
+     "upper": true,
+     "italic": false,
+     "mono": true,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.71,
+     "top": 345,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Avery Doan, Data Analyst, NT Government",
+     "words": 6,
+     "lines": 1,
+     "size": 16,
+     "font": "ui-sans-serif"
+    },
+    "headings": [
+     {
+      "text": "A V E R Y",
+      "words": 5,
+      "chars": 9,
+      "lines": 1,
+      "size": 100,
+      "vw": 25.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 345,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "D O A N",
+      "words": 4,
+      "chars": 7,
+      "lines": 1,
+      "size": 100,
+      "vw": 25.6,
+      "font": "Fira Code",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 0.75,
+      "upper": true,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.56,
+      "top": 422,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Evidence-based reporting that decision-makers can act on.",
+      "words": 7,
+      "chars": 57,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 936,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "End-to-end analytics, Microsoft Fabric first.",
+      "words": 5,
+      "chars": 45,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 3453,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From reporting pipelines to civic-tech builds.",
+      "words": 6,
+      "chars": 46,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 4804,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hackathon and competition wins.",
+      "words": 4,
+      "chars": 31,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 7568,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A visual timeline of builds.",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9402,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "I I T T C C O O D D E E F F A A I I R R ’ ’ 2 2 5 5",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9562,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "D D I I G G I I T T A A L L E E X X C C E E L L L L E E N N C C E E",
+      "words": 34,
+      "chars": 67,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9613,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "B B U U S S I I N N E E S S S S I I N N N N O O V V A A T T I I O O N N",
+      "words": 36,
+      "chars": 71,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9707,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R E E S S E E A A R R C C H H",
+      "words": 16,
+      "chars": 31,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9801,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "P P O O S S T T E E R R & & C C O O D D I I N N G G",
+      "words": 26,
+      "chars": 51,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9852,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R R I I M M P P A A G G L L O O B B A A L L",
+      "words": 22,
+      "chars": 43,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 700,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 9903,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Always mixing theory and practice.",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 10536,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Continuous learning loops.",
+      "words": 3,
+      "chars": 26,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 11076,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s talk about reporting and analytics.",
+      "words": 6,
+      "chars": 41,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "ui-sans-serif",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 11732,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 3,
+     "over2Lines": 5,
+     "statements": 1,
+     "centered": 3,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.03,
+       "mono": true
+      },
+      {
+       "family": "Antic",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Fira Code",
+       "share": 0,
+       "mono": true
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      12,
+      14,
+      15,
+      16,
+      20,
+      24,
+      30,
+      100
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 100,
+      "vw": 25.6,
+      "font": "Fira Code",
+      "text": "A"
+     },
+     "monoShare": 0.03,
+     "monoProseShare": 0.03,
+     "monoFamilies": [
+      "Fira Code",
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "A",
+      "V",
+      "E",
+      "R",
+      "Y",
+      "D"
+     ],
+     "microLabels": 14,
+     "microLabelShare": 0.026,
+     "microSamples": [
+      "Experience",
+      "Nov 2025 – Present",
+      "Sep 2023 – Sep 2024",
+      "Mar 2023 – Aug 2023",
+      "Nov 2023 – Jan 2024",
+      "Skills"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0.04,
+     "smallText": 10
+    },
+    "eyebrows": [
+     {
+      "text": "Experience",
+      "above": "Evidence-based reporting that decision-m",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 908
+     },
+     {
+      "text": "Skills",
+      "above": "End-to-end analytics, Microsoft Fabric f",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3425
+     },
+     {
+      "text": "Projects",
+      "above": "From reporting pipelines to civic-tech b",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4776
+     },
+     {
+      "text": "Awards",
+      "above": "Hackathon and competition wins.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7540
+     },
+     {
+      "text": "Education",
+      "above": "Always mixing theory and practice.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 10508
+     },
+     {
+      "text": "Certifications",
+      "above": "Continuous learning loops.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 11048
+     },
+     {
+      "text": "Contact",
+      "above": "Let’s talk about reporting and analytics",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 11704
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0a0a0a",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a1a1",
+       "share": 0.67
+      },
+      {
+       "color": "#fafafa",
+       "share": 0.24
+      },
+      {
+       "color": "#e5e5e5",
+       "share": 0.05
+      },
+      {
+       "color": "#f9f9f9",
+       "share": 0.02
+      },
+      {
+       "color": "#737373",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#262626",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.15
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 20,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 31,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 31,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 3392
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1144
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3593
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4976
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 6741
+      },
+      {
+       "count": 5,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 7732
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist mono",
+     "fira code",
+     "antic"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 12321,
+    "margins": {
+     "left": 24,
+     "right": 52
+    },
+    "sections": [
+     {
+      "sel": "section#top.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 9,
+      "media": 0,
+      "middle": 2,
+      "heading": null,
+      "left": 24,
+      "right": 78,
+      "textLeft": 24,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.space-y-3",
+      "tag": "header",
+      "top": 908,
+      "height": 196,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Evidence-based reporting that decision-makers can ",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.space-y-6",
+      "tag": "div",
+      "top": 1144,
+      "height": 2168,
+      "words": 412,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Data Analyst",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 49,
+      "right": 49,
+      "textLeft": 49,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.space-y-8.rounded-3xl",
+      "tag": "section",
+      "top": 3392,
+      "height": 1304,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "End-to-end analytics, Microsoft Fabric first.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 57,
+      "right": 80,
+      "textLeft": 57,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.space-y-3",
+      "tag": "header",
+      "top": 4776,
+      "height": 160,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From reporting pipelines to civic-tech builds.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 53,
+      "textLeft": 24,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-6",
+      "tag": "div",
+      "top": 4976,
+      "height": 1668,
+      "words": 222,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Microsoft Fabric end-to-end project",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 49,
+      "right": 53,
+      "textLeft": 49,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.overflow-hidden",
+      "tag": "div",
+      "top": 6684,
+      "height": 735,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Personal_Portfolio_2025",
+       "size": 16,
+       "tag": "h4"
+      },
+      "left": 66,
+      "right": 66,
+      "textLeft": 66,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "header.space-y-3",
+      "tag": "header",
+      "top": 7540,
+      "height": 160,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hackathon and competition wins.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 97,
+      "textLeft": 65,
+      "textRight": 97,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-4",
+      "tag": "div",
+      "top": 7732,
+      "height": 1606,
+      "words": 185,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "NT Digital Excellence Award 2025",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 90,
+      "right": 90,
+      "textLeft": 90,
+      "textRight": 90,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div#media.space-y-6.pt-8",
+      "tag": "div",
+      "top": 9370,
+      "height": 984,
+      "words": 13,
+      "media": 15,
+      "middle": 0,
+      "heading": {
+       "text": "A visual timeline of builds.",
+       "size": 24,
+       "tag": "h3"
+      },
+      "left": 65,
+      "right": 65,
+      "textLeft": 65,
+      "textRight": 103,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#education.grid.gap-10",
+      "tag": "section",
+      "top": 10475,
+      "height": 1116,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Always mixing theory and practice.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 57,
+      "right": 73,
+      "textLeft": 57,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.rounded-3xl.border",
+      "tag": "section",
+      "top": 11671,
+      "height": 586,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s talk about reporting and analytics.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 59,
+      "right": 59,
+      "textLeft": 59,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 480,
+      "height": 256
+     },
+     {
+      "top": 9536,
+      "height": 432
+     }
+    ],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 49,
+      "n": 15
+     },
+     {
+      "x": 90,
+      "n": 11
+     },
+     {
+      "x": 78,
+      "n": 8
+     },
+     {
+      "x": 24,
+      "n": 3
+     },
+     {
+      "x": 65,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 39,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "7 eyebrow/kicker label(s) above headings: \"Experience\" above \"Evidence-based reporting that decision-m\"; \"Skills\" above \"End-to-end analytics, Microsoft Fabric f\"; \"Projects\" above \"From reporting pipelines to civic-tech b\"; \"Awards\" above \"Hackathon and competition wins.\"; \"Education\" above \"Always mixing theory and practice.\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: Fira Code, Geist Mono — e.g. \"A\", \"V\", \"E\", \"R\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "14 tiny uppercase letter-spaced labels (e.g. \"Experience\", \"Nov 2025 – Present\", \"Sep 2023 – Sep 2024\", \"Mar 2023 – Aug 2023\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): section#contact.rounded-3xl.border → linear-gradient(to right bottom, oklab(0.921998 -0.00000908971 0.0000215769 / 0.1) 0%, rgba(0, 0, 0, 0) 100%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "20 box-shadow(s) on elements at rest: div.relative.h-[110px] → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | article.rounded-3xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "29 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "4 row(s) of identical cards each topped with a small icon (4, 4, 4, 5 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (10, 12, 14, 16, 20, 22, 24, 30, 36, 210).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 142 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "10 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt STIX Two Text and STIX Two Text, but the page renders ui-sans-serif, Geist Mono.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "late-title",
+   "width": 1440,
+   "message": "The title is not readable 1.2s after the page loaded (it has no size yet).",
+   "fix": "Put the headline in the HTML, painted on the first frame; the load sequence only adds arrival and is settled by 1.2s (references/motion.md, \"Load sequence in 1.2 seconds\"). No preloader, no gate, no waiting for the load event.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 192px on the left, 225px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The page has no visible h1.",
+   "fix": "Give the first screen a clear title in an h1 that says what this is (a name with what it does, the product with what it is for, the event with its date and place).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hero-void",
+   "width": 1440,
+   "message": "28% of the first screen is one empty block (600×600px at 0,120).",
+   "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "5 headline(s) wrap past two lines at 390px: \"Evidence-based reporting that decision-makers ca\" → 3 lines (7 words, 30px); \"End-to-end analytics, Microsoft Fabric first.\" → 3 lines (5 words, 30px); \"D D I I G G I I T T A A L L E E X X C C E E L L \" → 3 lines (34 words, 30px); \"B B U U S S I I N N E E S S S S I I N N N N O O \" → 3 lines (36 words, 30px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The page sits off-centre: its content comes to 24px from the left edge but only to 52px from the right, at 390px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "A 432px stretch at 9536px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/desktop-fold.jpg",
+   "pages": [
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/desktop-page-01.jpg",
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/tablet-fold.jpg",
+   "pages": [
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/tablet-page-01.jpg",
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/mobile-fold.jpg",
+   "pages": [
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/mobile-page-01.jpg",
+    "/Users/averydoan/Library/Mobile Documents/com~apple~CloudDocs/WORK/resume/Resume - v1/portfolio/.taste-skill/old5/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
