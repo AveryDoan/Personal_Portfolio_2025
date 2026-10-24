@@ -169,3 +169,40 @@ export const HoverSliderImage = React.forwardRef<
     )
 })
 HoverSliderImage.displayName = "HoverSliderImage"
+
+/** One slide made of several pictures: same reveal as HoverSliderImage, tiled in a grid. */
+export const HoverSliderPanel = ({
+    index,
+    images,
+}: {
+    index: number
+    images: { src: string; alt: string }[]
+}) => {
+    const { activeSlide } = useHoverSliderContext()
+    const isActive = activeSlide === index
+    return (
+        <motion.div
+            className="grid size-full grid-cols-2 gap-1 bg-black"
+            transition={{ ease: [0.33, 1, 0.68, 1], duration: 0.8 }}
+            variants={clipPathVariants}
+            animate={isActive ? "visible" : "hidden"}
+            aria-hidden={!isActive}
+            style={{
+                gridTemplateRows: `repeat(${Math.ceil((images.length + (images.length % 2)) / 2)}, minmax(0, 1fr))`,
+            }}
+        >
+            {images.map((image, i) => (
+                <img
+                    key={image.src}
+                    src={resolveAsset(image.src)}
+                    alt={image.alt}
+                    loading={index === 0 && i < 2 ? "eager" : "lazy"}
+                    className={cn(
+                        "size-full min-h-0 object-cover",
+                        images.length % 2 === 1 && i === 0 && "col-span-2"
+                    )}
+                />
+            ))}
+        </motion.div>
+    )
+}

@@ -302,80 +302,52 @@ export const flagshipProjects: Project[] = [
   },
 ];
 
-export const mediaSlides = [
+type Photo = { src: string; alt: string };
+
+export const mediaGroups: { title: string; photos: Photo[] }[] = [
   {
     title: "IT Code Fair ’25",
-    src: "/images/award-medals.webp",
-    alt: "Framed winner certificates and glass trophies on a round table",
-  },
-  {
-    title: "At the Code Fair",
-    src: "/images/event-team.webp",
-    alt: "Avery and teammates at a table of exhibits at IT Code Fair 2025",
+    photos: [
+      { src: "/images/award-medals.webp", alt: "Framed winner certificates and glass trophies on a round table" },
+      { src: "/images/stage-portrait.webp", alt: "Avery smiling with arms open beside a table of framed award certificates and glass trophies" },
+      { src: "/images/event-team.webp", alt: "Avery and teammates at a table of exhibits at IT Code Fair 2025" },
+      { src: "/images/award-ai-challenge.webp", alt: "Students receiving certificates on stage in front of the AI Challenge Runner-Up slide" },
+    ],
   },
   {
     title: "Digital Excellence",
-    src: "/images/award-digital-excellence.webp",
-    alt: "Winners in front of the Northern Territory Awards for Digital Excellence 2025 screen",
+    photos: [
+      { src: "/images/award-digital-excellence.webp", alt: "Winners in front of the Northern Territory Awards for Digital Excellence 2025 screen" },
+    ],
   },
   {
     title: "Business Innovation",
-    src: "/images/award-nt-shift-surge-map.webp",
-    alt: "NT Shift Surge map showing emergency workforce response across the Northern Territory",
+    photos: [
+      { src: "/images/award-business-innovation.webp", alt: "Team presenting the NT Shift Surge concept on stage beneath a slide reading Jobs when you need them. Staff when you need them." },
+      { src: "/images/award-nt-shift-surge-map.webp", alt: "NT Shift Surge map showing emergency workforce response across the Northern Territory" },
+    ],
   },
   {
-    title: "Research Poster",
-    src: "/images/research-poster-pair.webp",
-    alt: "Avery and a teammate holding the AI Facial Analysis research poster",
+    title: "Research",
+    photos: [
+      { src: "/images/research-poster-pair.webp", alt: "Avery and a teammate holding the AI Facial Analysis research poster" },
+      { src: "/images/research-presenting.webp", alt: "Avery presenting in front of a slide of workforce statistics" },
+      { src: "/images/award-research-team.webp", alt: "Research Competition winners on stage in front of the winner slide" },
+      { src: "/images/research-poster.webp", alt: "AI Facial Analysis research poster on detecting mental health risks in mining and construction" },
+    ],
   },
   {
-    title: "Presenting Research",
-    src: "/images/research-presenting.webp",
-    alt: "Avery presenting in front of a slide of workforce statistics",
+    title: "Poster & Coding",
+    photos: [
+      { src: "/images/award-poster.webp", alt: "Poster Competition winners on stage in front of the winner slide" },
+      { src: "/images/award-coding.webp", alt: "Winning coding team on stage in front of the sign-language recognition slide" },
+    ],
   },
   {
     title: "Rimpa Global",
-    src: "/images/rimpa-dashboard-1.webp",
-    alt: "Emissions dashboard showing a digital carbon footprint and priority actions",
-  },
-  {
-    title: "Coding Champion",
-    src: "/images/award-coding.webp",
-    alt: "Winning coding team on stage in front of the sign-language recognition slide",
-  },
-  {
-    title: "With the Trophies",
-    src: "/images/stage-portrait.webp",
-    alt: "Avery smiling with arms open beside a table of framed award certificates and glass trophies",
-  },
-  {
-    title: "Business Innovation Pitch",
-    src: "/images/award-business-innovation.webp",
-    alt: "Team presenting the NT Shift Surge concept on stage beneath a slide reading Jobs when you need them. Staff when you need them.",
-  },
-  {
-    title: "Research Competition",
-    src: "/images/award-research-team.webp",
-    alt: "Research Competition winners on stage in front of the winner slide",
-  },
-  {
-    title: "Poster Competition",
-    src: "/images/award-poster.webp",
-    alt: "Poster Competition winners on stage in front of the winner slide",
-  },
-  {
-    title: "The Research Poster",
-    src: "/images/research-poster.webp",
-    alt: "AI Facial Analysis research poster on detecting mental health risks in mining and construction",
-  },
-  {
-    title: "Rimpa Dashboard",
-    src: "/images/rimpa-dashboard-2.webp",
-    alt: "Dashboard of priority actions for cutting a business's digital carbon footprint",
-  },
-  {
-    title: "AI Challenge Runner-Up",
-    src: "/images/award-ai-challenge.webp",
-    alt: "Students receiving certificates on stage in front of the AI Challenge Runner-Up slide",
+    photos: [
+      { src: "/images/rimpa-dashboard-1.webp", alt: "Emissions dashboard showing a digital carbon footprint and priority actions" },
+      { src: "/images/rimpa-dashboard-2.webp", alt: "Dashboard of priority actions for cutting a business's digital carbon footprint" },
+    ],
   },
 ];

@@ -6,7 +6,7 @@ import {
   education,
   experience,
   flagshipProjects,
-  mediaSlides,
+  mediaGroups,
   skillGroups,
 } from "@/data/resume";
 import {
@@ -22,8 +22,8 @@ import {
 import Link from "next/link";
 import {
   HoverSlider,
-  HoverSliderImage,
   HoverSliderImageWrap,
+  HoverSliderPanel,
   TextStaggerHover,
 } from "@/components/ui/animated-slideshow";
 import { GithubStream } from "@/components/ui/github-stream";
@@ -238,26 +238,18 @@ export default function Home() {
             <HoverSlider className="min-h-[500px] place-content-center bg-transparent">
               <div className="flex flex-wrap items-center justify-evenly gap-6 md:gap-12">
                 <div className="flex flex-col space-y-2 md:space-y-4">
-                  {mediaSlides.map((slide, index) => (
+                  {mediaGroups.map((group, index) => (
                     <TextStaggerHover
-                      key={slide.title}
+                      key={group.title}
                       index={index}
-                      className="cursor-pointer text-2xl font-bold uppercase tracking-tighter"
-                      text={slide.title}
+                      className="cursor-pointer text-3xl font-bold uppercase tracking-tighter"
+                      text={group.title}
                     />
                   ))}
                 </div>
-                <HoverSliderImageWrap className="h-96 w-full max-w-md overflow-hidden rounded-2xl shadow-2xl">
-                  {mediaSlides.map((slide, index) => (
-                    <HoverSliderImage
-                      key={slide.title}
-                      index={index}
-                      imageUrl={slide.src}
-                      src={slide.src}
-                      alt={slide.alt}
-                      className="size-full object-cover"
-                      loading={index === 0 ? "eager" : "lazy"}
-                    />
+                <HoverSliderImageWrap className="h-96 w-[min(100%,28rem)] shrink-0 grid-rows-[minmax(0,1fr)] overflow-hidden rounded-2xl shadow-2xl">
+                  {mediaGroups.map((group, index) => (
+                    <HoverSliderPanel key={group.title} index={index} images={group.photos} />
                   ))}
                 </HoverSliderImageWrap>
               </div>
