@@ -4,7 +4,7 @@
 // To move to a permanent domain, set NEXT_PUBLIC_SITE_URL in the Vercel project
 // (Settings > Environment Variables) or change the fallback below. Nothing else
 // in the repo needs editing.
-const FALLBACK_SITE_URL = "https://flying-scarlet-pdd3z45.tmp.now";
+const FALLBACK_SITE_URL = "https://averydoanportfolio.vercel.app";
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? FALLBACK_SITE_URL).replace(/\/+$/, "");
 
